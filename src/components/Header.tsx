@@ -67,7 +67,6 @@ export default function Header() {
 
             <Link href="/providers" className="text-sm text-slate-300 hover:text-white px-3 py-2 rounded-md hover:bg-slate-800 transition-colors">Providers</Link>
             <Link href="/blog" className="text-sm text-slate-300 hover:text-white px-3 py-2 rounded-md hover:bg-slate-800 transition-colors">Blog</Link>
-            <Link href="/about" className="text-sm text-slate-300 hover:text-white px-3 py-2 rounded-md hover:bg-slate-800 transition-colors">About</Link>
           </nav>
 
           {/* CTA */}
@@ -109,7 +108,6 @@ export default function Header() {
             <div className="px-3 pt-3 pb-1 border-t border-slate-800 mt-2">
               <Link href="/providers" className="block py-2 text-sm text-slate-300 hover:text-white" onClick={() => setMenuOpen(false)}>Providers</Link>
               <Link href="/blog" className="block py-2 text-sm text-slate-300 hover:text-white" onClick={() => setMenuOpen(false)}>Blog</Link>
-              <Link href="/about" className="block py-2 text-sm text-slate-300 hover:text-white" onClick={() => setMenuOpen(false)}>About</Link>
               <Link href="/contact" className="block py-2 text-sm text-slate-300 hover:text-white" onClick={() => setMenuOpen(false)}>Contact</Link>
               <Link href="/quote" className="mt-2 block w-full bg-red-600 hover:bg-red-700 text-white text-sm font-semibold px-4 py-2.5 rounded-lg text-center transition-colors" onClick={() => setMenuOpen(false)}>Get Business Quote</Link>
             </div>
