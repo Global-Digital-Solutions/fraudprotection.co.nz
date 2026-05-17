@@ -84,7 +84,7 @@ export default function BusinessTypePage({ params }: Props) {
           <div className="mb-3 flex flex-wrap gap-2">
             <span className="text-xs font-medium bg-red-600/80 backdrop-blur-sm px-3 py-1 rounded-full">Business Insurance Guide</span>
           </div>
-          <h1 className="text-3xl sm:text-5xl font-bold mb-3 drop-shadow-md">{type.icon} {type.name}</h1>
+          <h1 className="text-3xl sm:text-5xl font-bold mb-3 drop-shadow-md">{type.name}</h1>
           <p className="text-slate-200 text-lg max-w-2xl mb-5">{type.tagline}</p>
           <Link href="/quote" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-xl transition-colors shadow-lg">
             Get a Quote →
@@ -176,8 +176,7 @@ export default function BusinessTypePage({ params }: Props) {
                   <div className="grid sm:grid-cols-3 gap-4">
                     {relatedTypes.map((t) => (
                       <Link key={t.slug} href={`/business/${t.slug}`} className="group border-2 border-slate-200 rounded-xl p-4 hover:border-red-300 transition-all">
-                        <div className="text-2xl mb-2">{t.icon}</div>
-                        <div className="font-semibold text-slate-900 group-hover:text-red-700 text-sm transition-colors">{t.name}</div>
+                          <div className="font-semibold text-slate-900 group-hover:text-red-700 text-sm transition-colors">{t.name}</div>
                         <div className="text-xs text-slate-500 mt-1 line-clamp-2">{t.tagline}</div>
                       </Link>
                     ))}

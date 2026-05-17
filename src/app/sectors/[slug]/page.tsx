@@ -45,7 +45,7 @@ export default function SectorPage({ params }: Props) {
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="text-xs font-medium bg-red-600/80 px-3 py-1 rounded-full">Business Sector Guide</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-bold mb-2">{sector.icon} {sector.name} Fraud Insurance</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold mb-2">{sector.name} Fraud Insurance</h1>
           <p className="text-slate-200 max-w-2xl">{sector.tagline}</p>
         </div>
       </section>
