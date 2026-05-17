@@ -25,7 +25,7 @@ export default function BlogPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl sm:text-5xl font-bold mb-4">Fraud News & Guides</h1>
           <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-            Expert analysis, NZ statistics, and practical guides on fraud protection for individuals and businesses.
+            Expert analysis, statistics, and practical guides on fraud protection for individuals and businesses.
           </p>
         </div>
       </section>
@@ -80,7 +80,7 @@ export default function BlogPage() {
       <section className="py-12 bg-gradient-to-r from-red-700 to-red-900 text-white">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold mb-3">Is Your Business Protected?</h2>
-          <p className="text-red-200 mb-6">Get a tailored quote for commercial crime, fidelity, or cyber insurance from a licensed NZ adviser.</p>
+          <p className="text-red-200 mb-6">Get a tailored quote for commercial crime, fidelity, or cyber insurance from a licensed adviser.</p>
           <Link href="/quote" className="inline-block bg-white text-red-700 hover:bg-red-50 font-bold px-8 py-3.5 rounded-xl transition-colors shadow-lg">
             Get a Free Quote →
           </Link>

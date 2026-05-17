@@ -25,11 +25,11 @@ export default function BusinessPage() {
             <div>
               <div className="inline-flex items-center gap-2 bg-red-700/50 border border-red-500/40 text-red-200 text-xs font-medium px-3 py-1.5 rounded-full mb-4">
                 <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-                Form submissions go to licensed NZ advisers
+                Form submissions go to licensed advisers
               </div>
               <h1 className="text-3xl sm:text-5xl font-bold mb-4">Business Fraud Protection Insurance</h1>
               <p className="text-red-100 text-lg mb-6">
-                Employee fraud, ransomware attacks, and payment diversion are affecting NZ businesses daily. Find the right commercial crime, fidelity, or cyber insurance — and get a tailored quote from a specialist.
+                Employee fraud, ransomware attacks, and payment diversion are affecting businesses daily. Find the right commercial crime, fidelity, or cyber insurance — and get a tailored quote from a specialist.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link href="/quote" className="bg-white text-red-700 hover:bg-red-50 font-bold px-6 py-3 rounded-xl transition-colors shadow-md">
@@ -43,9 +43,9 @@ export default function BusinessPage() {
             <div className="grid grid-cols-2 gap-4">
               {[
                 { label: 'Average employee fraud loss', value: '$150,000+' },
-                { label: 'Ransomware attack cost (avg NZ SME)', value: '$50k–$200k' },
-                { label: 'BEC losses to NZ businesses (2024)', value: 'Tens of millions' },
-                { label: 'NZ businesses with cyber insurance', value: 'Under 30%' },
+                { label: 'Ransomware attack cost (avg SME)', value: '$50k–$200k' },
+                { label: 'BEC losses to businesses (2024)', value: 'Tens of millions' },
+                { label: 'Businesses with cyber insurance', value: 'Under 30%' },
               ].map((stat) => (
                 <div key={stat.label} className="bg-white/10 border border-white/20 rounded-xl p-4">
                   <div className="text-xl font-bold text-white mb-1">{stat.value}</div>
@@ -120,7 +120,7 @@ export default function BusinessPage() {
           <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
             <div>
               <h2 className="text-2xl font-bold text-slate-900">Business Insurance Providers</h2>
-              <p className="text-slate-600 text-sm mt-1">Insurers and brokers available to NZ businesses</p>
+              <p className="text-slate-600 text-sm mt-1">Insurers and brokers for local businesses</p>
             </div>
             <Link href="/providers" className="text-sm text-red-600 hover:text-red-700 font-medium">View all providers →</Link>
           </div>
@@ -147,7 +147,7 @@ export default function BusinessPage() {
       <section className="py-16 bg-gradient-to-r from-red-700 to-red-900 text-white">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Get a Tailored Business Insurance Quote</h2>
-          <p className="text-red-200 text-lg mb-8">Complete our brief form and a licensed NZ insurance adviser will contact you with options matched to your business and risk profile.</p>
+          <p className="text-red-200 text-lg mb-8">Complete our brief form and a licensed insurance adviser will contact you with options matched to your business and risk profile.</p>
           <Link href="/quote" className="inline-block bg-white text-red-700 hover:bg-red-50 font-bold px-10 py-4 rounded-xl transition-colors shadow-lg text-lg">
             Start Your Free Quote →
           </Link>

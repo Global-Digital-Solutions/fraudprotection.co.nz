@@ -84,7 +84,7 @@ export default function BusinessTypePage({ params }: Props) {
           <div className="mb-3 flex flex-wrap gap-2">
             <span className="text-xs font-medium bg-red-600/80 backdrop-blur-sm px-3 py-1 rounded-full">Business Insurance Guide</span>
           </div>
-          <h1 className="text-3xl sm:text-5xl font-bold mb-3 drop-shadow-md">{type.icon} {type.name} in NZ</h1>
+          <h1 className="text-3xl sm:text-5xl font-bold mb-3 drop-shadow-md">{type.icon} {type.name}</h1>
           <p className="text-slate-200 text-lg max-w-2xl mb-5">{type.tagline}</p>
           <Link href="/quote" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-xl transition-colors shadow-lg">
             Get a Quote →
@@ -191,7 +191,7 @@ export default function BusinessTypePage({ params }: Props) {
               {/* Quote CTA */}
               <div className="bg-red-600 text-white rounded-xl p-5 sticky top-4">
                 <h3 className="font-bold mb-2">Get a Tailored Quote</h3>
-                <p className="text-red-100 text-sm mb-4">Complete our brief form and a licensed NZ adviser will contact you with options for {type.shortName}.</p>
+                <p className="text-red-100 text-sm mb-4">Complete our brief form and a licensed adviser will contact you with options for {type.shortName}.</p>
                 <Link href="/quote" className="block w-full bg-white text-red-700 hover:bg-red-50 font-bold py-2.5 rounded-lg text-center text-sm transition-colors">
                   Start Free Quote →
                 </Link>
@@ -231,7 +231,7 @@ export default function BusinessTypePage({ params }: Props) {
               {/* Disclaimer */}
               <div className="border border-amber-200 bg-amber-50 rounded-xl p-4">
                 <p className="text-xs text-amber-800 leading-relaxed">
-                  This page provides general information only. Insurance needs vary by business. Always consult a licensed NZ insurance adviser before purchasing. Our quote form connects you to licensed advisers only.
+                  This page provides general information only. Insurance needs vary by business. Always consult a licensed insurance adviser before purchasing. Our quote form connects you to licensed advisers only.
                 </p>
               </div>
             </div>
@@ -243,7 +243,7 @@ export default function BusinessTypePage({ params }: Props) {
       <section className="py-12 bg-gradient-to-r from-red-700 to-red-900 text-white">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold mb-3">Protect Your Business from {type.name}</h2>
-          <p className="text-red-200 mb-6">Get a tailored quote from a licensed NZ insurance adviser — no obligation, no pressure.</p>
+          <p className="text-red-200 mb-6">Get a tailored quote from a licensed insurance adviser — no obligation, no pressure.</p>
           <Link href="/quote" className="inline-block bg-white text-red-700 hover:bg-red-50 font-bold px-8 py-3.5 rounded-xl transition-colors shadow-lg">
             Get a Free Business Quote →
           </Link>

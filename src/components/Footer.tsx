@@ -16,7 +16,7 @@ export default function Footer() {
               <span className="font-bold text-white text-base">FraudProtection<span className="text-red-400">.co.nz</span></span>
             </Link>
             <p className="text-sm leading-relaxed mb-4">
-              New Zealand's guide to personal and business fraud protection insurance. Expert guides, provider comparisons, and qualified adviser referrals.
+              Your guide to personal and business fraud protection insurance. Expert guides, provider comparisons, and qualified adviser referrals.
             </p>
             <p className="text-xs text-slate-500">
               Contact: <a href="mailto:hello@cover4you.co.nz" className="hover:text-slate-300">hello@cover4you.co.nz</a>

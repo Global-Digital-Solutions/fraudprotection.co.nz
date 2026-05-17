@@ -37,7 +37,7 @@ export default function ContactPage() {
 
               <div className="bg-slate-50 rounded-xl p-6">
                 <h2 className="font-bold text-slate-900 mb-3">Emergency Fraud Assistance</h2>
-                <p className="text-sm text-slate-600 mb-4">If you've been targeted by fraud right now, contact these NZ services immediately:</p>
+                <p className="text-sm text-slate-600 mb-4">If you've been targeted by fraud right now, contact these services immediately:</p>
                 <div className="space-y-2">
                   <p className="text-sm"><strong className="text-slate-900">Netsafe:</strong> <a href="tel:0508638723" className="text-red-600 hover:text-red-700">0508 638 723</a></p>
                   <p className="text-sm"><strong className="text-slate-900">NZ Police:</strong> <a href="tel:105" className="text-red-600 hover:text-red-700">105</a></p>

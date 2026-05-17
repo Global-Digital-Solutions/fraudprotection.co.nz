@@ -14,9 +14,9 @@ export default function ProvidersPage() {
     <>
       <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-3xl sm:text-5xl font-bold mb-4">Fraud Insurance Providers in NZ</h1>
+          <h1 className="text-3xl sm:text-5xl font-bold mb-4">Fraud Insurance Providers</h1>
           <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-            New Zealand's leading insurers and brokers for commercial crime, cyber, and fidelity insurance — plus personal protection resources.
+            Leading insurers and brokers for commercial crime, cyber, and fidelity insurance — plus personal protection resources.
           </p>
         </div>
       </section>
@@ -25,7 +25,7 @@ export default function ProvidersPage() {
       <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-slate-900 mb-2">Business Insurance Providers</h2>
-          <p className="text-slate-600 text-sm mb-8">Insurers and brokers specialising in commercial crime, fidelity, and cyber insurance for NZ businesses.</p>
+          <p className="text-slate-600 text-sm mb-8">Insurers and brokers specialising in commercial crime, fidelity, and cyber insurance for local businesses.</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {businessProviders.map((p) => (
               <div key={p.id} className="border-2 border-slate-200 hover:border-red-200 rounded-2xl p-6 transition-all hover:shadow-sm">
@@ -60,7 +60,7 @@ export default function ProvidersPage() {
       <section className="py-12 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-slate-900 mb-2">Personal Protection Resources</h2>
-          <p className="text-slate-600 text-sm mb-8">Banks, insurers, and free services for personal fraud protection in New Zealand.</p>
+          <p className="text-slate-600 text-sm mb-8">Banks, insurers, and free services for personal fraud protection.</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {personalProviders.map((p) => (
               <div key={p.id} className="bg-white border border-slate-200 rounded-2xl p-5">

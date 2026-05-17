@@ -35,7 +35,7 @@ export default function QuoteForm() {
           </svg>
         </div>
         <h2 className="text-2xl font-bold text-slate-900 mb-2">Quote Request Received</h2>
-        <p className="text-slate-600 mb-6">Thank you — a licensed NZ insurance adviser will contact you within one business day.</p>
+        <p className="text-slate-600 mb-6">Thank you — a licensed insurance adviser will contact you within one business day.</p>
         <p className="text-sm text-slate-500">In the meantime, explore our <a href="/business" className="text-red-600 hover:underline">business protection guides</a> to learn more about your options.</p>
       </div>
     );
@@ -155,7 +155,7 @@ export default function QuoteForm() {
         <label className="flex items-start gap-3 cursor-pointer">
           <input type="checkbox" name="consent" required className="w-4 h-4 mt-0.5 accent-red-600" />
           <span className="text-xs text-slate-600 leading-relaxed">
-            I consent to FraudProtection.co.nz sharing my contact details with licensed NZ insurance advisers for the purpose of providing a quote. I understand this is a referral service and I am not obligated to purchase any insurance product.
+            I consent to FraudProtection.co.nz sharing my contact details with licensed insurance advisers for the purpose of providing a quote. I understand this is a referral service and I am not obligated to purchase any insurance product.
           </span>
         </label>
       </div>

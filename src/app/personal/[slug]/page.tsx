@@ -79,7 +79,7 @@ export default function PersonalTypePage({ params }: Props) {
           <div className="mb-3 flex flex-wrap gap-2">
             <span className="text-xs font-medium bg-slate-700/80 backdrop-blur-sm px-3 py-1 rounded-full">Personal Protection Guide</span>
           </div>
-          <h1 className="text-3xl sm:text-5xl font-bold mb-3 drop-shadow-md">{type.icon} {type.name} in New Zealand</h1>
+          <h1 className="text-3xl sm:text-5xl font-bold mb-3 drop-shadow-md">{type.icon} {type.name}</h1>
           <p className="text-slate-200 text-lg max-w-2xl">{type.tagline}</p>
         </div>
       </section>

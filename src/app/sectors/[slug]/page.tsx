@@ -91,7 +91,7 @@ export default function SectorPage({ params }: Props) {
             <div className="space-y-5">
               <div className="bg-red-600 text-white rounded-xl p-5 sticky top-4">
                 <h3 className="font-bold mb-2">Get a {sector.name} Insurance Quote</h3>
-                <p className="text-red-100 text-sm mb-4">A licensed NZ adviser will recommend cover specific to your sector and risk profile.</p>
+                <p className="text-red-100 text-sm mb-4">A licensed adviser will recommend cover specific to your sector and risk profile.</p>
                 <Link href="/quote" className="block w-full bg-white text-red-700 hover:bg-red-50 font-bold py-2.5 rounded-lg text-center text-sm transition-colors">
                   Start Free Quote →
                 </Link>

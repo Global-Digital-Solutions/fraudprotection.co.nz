@@ -142,7 +142,7 @@ export default function HomePage() {
                   </div>
                 </div>
                 <p className="text-slate-300 text-sm leading-relaxed mb-4">
-                  Understand your options for personal fraud protection in NZ — from your bank's fraud guarantees to emerging cyber cover. Direct links to providers and free support services.
+                  Understand your options for personal fraud protection — from your bank's fraud guarantees to emerging cyber cover. Direct links to providers and free support services.
                 </p>
                 <div className="inline-flex items-center gap-1.5 bg-slate-700/50 text-slate-200 text-xs px-3 py-1.5 rounded-full">
                   <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
@@ -187,7 +187,7 @@ export default function HomePage() {
                   </div>
                 </div>
                 <p className="text-red-100 text-sm leading-relaxed mb-4">
-                  Commercial crime, fidelity, and cyber insurance for NZ businesses. Get a tailored quote from a licensed insurance adviser — form submissions sent directly to specialists.
+                  Commercial crime, fidelity, and cyber insurance for local businesses. Get a tailored quote from a licensed insurance adviser — form submissions sent directly to specialists.
                 </p>
                 <div className="inline-flex items-center gap-1.5 bg-red-600/50 text-red-100 text-xs px-3 py-1.5 rounded-full">
                   <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
@@ -225,7 +225,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">Why Fraud Protection Matters Now</h2>
-            <p className="text-slate-600 max-w-2xl mx-auto">New Zealand's fraud epidemic is accelerating. Understanding your risk is the first step to protection.</p>
+            <p className="text-slate-600 max-w-2xl mx-auto">The fraud epidemic is accelerating. Understanding your risk is the first step to protection.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -236,7 +236,7 @@ export default function HomePage() {
                   </svg>
                 ),
                 title: 'AI-Powered Scams Are Getting Smarter',
-                body: 'Artificial intelligence is enabling criminals to create hyper-personalised phishing attacks, deepfake voice calls, and convincing fake investment platforms at scale. In 2025, AI-generated scam content became indistinguishable from legitimate communications for many New Zealanders.',
+                body: 'Artificial intelligence is enabling criminals to create hyper-personalised phishing attacks, deepfake voice calls, and convincing fake investment platforms at scale. In 2025, AI-generated scam content became indistinguishable from legitimate communications.',
               },
               {
                 icon: (
@@ -245,7 +245,7 @@ export default function HomePage() {
                   </svg>
                 ),
                 title: 'Banks Cover Less Than You Think',
-                body: 'Only 36% of scam victims who report to their NZ bank recover their funds. Banks reimburse unauthorised transactions, but when you were tricked into authorising a payment — as in most modern scams — they often have no legal obligation to refund you.',
+                body: 'Only 36% of scam victims who report to their bank recover their funds. Banks reimburse unauthorised transactions, but when you were tricked into authorising a payment — as in most modern scams — they often have no legal obligation to refund you.',
               },
               {
                 icon: (
@@ -254,7 +254,7 @@ export default function HomePage() {
                   </svg>
                 ),
                 title: 'Business Fraud Has a Human Element',
-                body: 'The majority of business fraud in NZ is committed by employees, not external hackers. The average employee fraud runs 18 months before detection and costs $150,000+ per case. Controls reduce risk — insurance protects you when controls fail.',
+                body: 'The majority of business fraud is committed by employees, not external hackers. The average employee fraud runs 18 months before detection and costs $150,000+ per case. Controls reduce risk — insurance protects you when controls fail.',
               },
               {
                 icon: (
@@ -263,7 +263,7 @@ export default function HomePage() {
                   </svg>
                 ),
                 title: 'Privacy Act 2020 Creates New Obligations',
-                body: 'NZ\'s Privacy Act 2020 requires mandatory notification of serious data breaches. For businesses, this means notification costs, legal fees, and potential fines — all covered by cyber insurance. Non-compliance penalties can exceed the cost of the insurance itself.',
+                body: 'The Privacy Act 2020 requires mandatory notification of serious data breaches. For businesses, this means notification costs, legal fees, and potential fines — all covered by cyber insurance. Non-compliance penalties can exceed the cost of the insurance itself.',
               },
               {
                 icon: (
@@ -281,7 +281,7 @@ export default function HomePage() {
                   </svg>
                 ),
                 title: 'Anyone Can Be Targeted',
-                body: '23% of NZ adults lost money to scams last year — nearly one in four. Fraud does not discriminate by age, income, or education. Awareness and the right protections in place make the critical difference between a near-miss and a devastating loss.',
+                body: '23% of adults lost money to scams last year — nearly one in four. Fraud does not discriminate by age, income, or education. Awareness and the right protections in place make the critical difference between a near-miss and a devastating loss.',
               },
             ].map((card) => (
               <div key={card.title} className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
@@ -302,7 +302,7 @@ export default function HomePage() {
           <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
             <div>
               <h2 className="text-2xl font-bold text-slate-900">Business Insurance Providers</h2>
-              <p className="text-slate-600 text-sm mt-1">NZ's leading commercial fraud and cyber insurance specialists</p>
+              <p className="text-slate-600 text-sm mt-1">Leading commercial fraud and cyber insurance specialists</p>
             </div>
             <Link href="/providers" className="text-sm text-red-600 hover:text-red-700 font-medium">View all providers →</Link>
           </div>
@@ -337,7 +337,7 @@ export default function HomePage() {
           <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
             <div>
               <h2 className="text-2xl font-bold text-slate-900">Fraud News & Guides</h2>
-              <p className="text-slate-600 text-sm mt-1">Stay informed on New Zealand's fraud landscape</p>
+              <p className="text-slate-600 text-sm mt-1">Stay informed on the latest fraud trends</p>
             </div>
             <Link href="/blog" className="text-sm text-red-600 hover:text-red-700 font-medium">View all articles →</Link>
           </div>
@@ -379,7 +379,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Get Your Business Covered</h2>
           <p className="text-red-200 text-lg mb-8">
-            Employee fraud, cyber attacks, and payment diversion are not hypothetical risks — they're affecting NZ businesses every day. A specialist adviser can find you comprehensive cover, often for less than you expect.
+            Employee fraud, cyber attacks, and payment diversion are not hypothetical risks — they're affecting businesses every day. A specialist adviser can find you comprehensive cover, often for less than you expect.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/quote" className="bg-white text-red-700 hover:bg-red-50 font-bold px-8 py-3.5 rounded-xl transition-colors shadow-lg">

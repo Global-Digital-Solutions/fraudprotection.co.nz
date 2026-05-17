@@ -22,7 +22,7 @@ export default function QuotePage() {
           </nav>
           <div className="max-w-xl">
             <h1 className="text-3xl sm:text-4xl font-bold mb-3">Get a Business Insurance Quote</h1>
-            <p className="text-red-200 text-lg">Complete the form below and a licensed NZ insurance adviser will contact you within one business day with options tailored to your business.</p>
+            <p className="text-red-200 text-lg">Complete the form below and a licensed insurance adviser will contact you within one business day with options tailored to your business.</p>
           </div>
         </div>
       </section>
@@ -39,7 +39,7 @@ export default function QuotePage() {
                 <div className="space-y-4">
                   {[
                     { step: '01', title: 'You submit the form', desc: 'Takes about 2 minutes. No obligation.' },
-                    { step: '02', title: 'We review your needs', desc: 'A licensed NZ adviser reviews your form and identifies suitable options.' },
+                    { step: '02', title: 'We review your needs', desc: 'A licensed adviser reviews your form and identifies suitable options.' },
                     { step: '03', title: 'We contact you', desc: 'Within one business day by phone or email, at your preference.' },
                     { step: '04', title: 'Tailored recommendations', desc: 'You receive options specific to your business size, sector, and risk.' },
                   ].map((s) => (
@@ -68,7 +68,7 @@ export default function QuotePage() {
 
               <div className="border border-amber-200 bg-amber-50 rounded-xl p-4">
                 <p className="text-xs text-amber-800 leading-relaxed">
-                  Your enquiry will be handled by a licensed NZ insurance adviser. FraudProtection.co.nz is a referral service, not a licensed insurer or financial adviser.
+                  Your enquiry will be handled by a licensed insurance adviser. FraudProtection.co.nz is a referral service, not a licensed insurer or financial adviser.
                 </p>
               </div>
             </div>

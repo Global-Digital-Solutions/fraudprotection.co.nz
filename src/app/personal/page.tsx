@@ -25,12 +25,12 @@ export default function PersonalPage() {
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
               Individual & Family Protection
             </div>
-            <h1 className="text-3xl sm:text-5xl font-bold mb-4">Personal Fraud Protection in New Zealand</h1>
+            <h1 className="text-3xl sm:text-5xl font-bold mb-4">Personal Fraud Protection</h1>
             <p className="text-slate-300 text-lg max-w-2xl mb-6">
-              $3 billion was lost to scams and fraud by New Zealanders in 2025. Understand your risks, know your options, and get connected to protection services directly.
+              $3 billion was lost to scams and fraud in 2025. Understand your risks, know your options, and get connected to protection services directly.
             </p>
             <div className="bg-slate-800/60 border border-slate-700 rounded-xl p-4 text-sm text-slate-300">
-              <strong className="text-white">How this section works:</strong> Personal fraud protection in NZ is primarily provided through banks and free support services. This section links you directly to providers and resources — no forms, no middleman.
+              <strong className="text-white">How this section works:</strong> Personal fraud protection is primarily provided through banks and free support services. This section links you directly to providers and resources — no forms, no middleman.
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default function PersonalPage() {
       <section className="py-12 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-slate-900 mb-2">Where to Get Personal Protection</h2>
-          <p className="text-slate-600 text-sm mb-8">Banks, insurers, and free services available to New Zealanders.</p>
+          <p className="text-slate-600 text-sm mb-8">Banks, insurers, and free services available to you.</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {personalProviders.map((p) => (
               <div key={p.id} className="bg-white border border-slate-200 rounded-2xl p-5">
@@ -130,7 +130,7 @@ export default function PersonalPage() {
       <section className="py-12 bg-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-xl font-bold text-slate-900 mb-3">Do You Also Own a Business?</h2>
-          <p className="text-slate-600 text-sm mb-6">Business fraud cover — commercial crime, fidelity, and cyber insurance — is available through our network of licensed NZ advisers.</p>
+          <p className="text-slate-600 text-sm mb-6">Business fraud cover — commercial crime, fidelity, and cyber insurance — is available through our network of licensed advisers.</p>
           <Link href="/business" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-3 rounded-xl transition-colors">
             Explore Business Protection →
           </Link>

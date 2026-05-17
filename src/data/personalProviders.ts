@@ -69,7 +69,7 @@ export const personalProviders: PersonalProvider[] = [
     name: 'IDCARE',
     type: 'broker',
     tagline: 'Free identity & cyber security support service',
-    description: 'IDCARE is Australasia\'s national identity & cyber support service. Free to New Zealanders — helps you respond, recover, and protect after identity theft or online fraud.',
+    description: 'IDCARE is Australasia\'s national identity & cyber support service — free to use. Helps you respond, recover, and protect after identity theft or online fraud.',
     coverTypes: ['Identity Theft Recovery', 'Cyber Support', 'Fraud Response'],
     url: 'https://www.idcare.org/new-zealand',
   },

@@ -54,7 +54,7 @@ export default function SectorsPage() {
       <section className="py-12 bg-gradient-to-r from-red-700 to-red-900 text-white">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold mb-3">Not Sure What Cover You Need?</h2>
-          <p className="text-red-200 mb-6">Submit a brief form and a licensed NZ adviser will assess your risk profile and recommend appropriate cover.</p>
+          <p className="text-red-200 mb-6">Submit a brief form and a licensed adviser will assess your risk profile and recommend appropriate cover.</p>
           <Link href="/quote" className="inline-block bg-white text-red-700 hover:bg-red-50 font-bold px-8 py-3.5 rounded-xl transition-colors shadow-lg">
             Get a Free Quote →
           </Link>
