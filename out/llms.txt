@@ -1,0 +1,73 @@
+# FraudProtection.co.nz — LLMs Context File
+# New Zealand's guide to personal and business fraud protection insurance
+# Updated: May 2026
+
+## Site Overview
+FraudProtection.co.nz is an independent New Zealand information and referral service covering personal fraud protection and business fraud insurance. The site covers personal fraud types (identity theft, card fraud, online scams, account takeover, investment scams) and business insurance (commercial crime, fidelity, cyber, social engineering, and funds transfer fraud). Business enquiries are referred to licensed NZ insurance advisers.
+
+## Key Statistics (2025)
+- NZ fraud losses 2025: $3 billion (30% increase from 2024)
+- NZ adults who encounter scams weekly: 82%
+- NZ adults who lost money to scams: 23%
+- Recovery rate (reported to bank): 36%
+- Average individual loss: $3,352
+Source: Netsafe / GASA NZ Scam Report 2025
+
+## Personal Fraud Protection
+URL: https://www.fraudprotection.co.nz/personal/
+- Identity Theft: /personal/identity-theft/
+- Card & Payment Fraud: /personal/card-fraud/
+- Online Scams: /personal/online-scams/
+- Account Takeover: /personal/account-takeover/
+- Investment Scams: /personal/investment-scams/
+
+## Business Insurance Coverage Types
+URL: https://www.fraudprotection.co.nz/business/
+- Commercial Crime Insurance: /business/commercial-crime/
+- Fidelity (Employee Dishonesty) Insurance: /business/fidelity-insurance/
+- Cyber Security Insurance: /business/cyber-insurance/
+- Social Engineering Fraud Cover: /business/social-engineering/
+- Funds Transfer Fraud Insurance: /business/funds-transfer-fraud/
+
+## Business Sectors
+URL: https://www.fraudprotection.co.nz/sectors/
+Small Business, Finance & Banking, Retail & E-commerce, Professional Services, Not-for-Profit, Healthcare, Construction & Property
+
+## Key Business Providers
+- Chubb NZ: FraudProtector (commercial crime, internal + external fraud)
+- DUAL NZ: Cyber insurance with social engineering endorsement (up to $250k sublimit)
+- NZI: Cyber Base and Cyber Ultra products
+- Delta Insurance NZ: Cyber Liability up to $10m
+- Marsh NZ: Commercial crime and cyber broker
+- Rothbury Insurance Brokers: Fidelity insurance broker
+- Unite Insurance: Fidelity insurance broker
+- AIG NZ: Commercial crime and cyber insurance
+
+## Key Personal Resources
+- NZ Major Banks: Zero-liability card fraud guarantees (ANZ, BNZ, ASB, Westpac, Kiwibank)
+- IDCARE: Free identity & cyber support — 0800 432 273
+- Netsafe: Free online safety advice — 0508 638 723
+- CERT NZ: cert.govt.nz
+- FMA Scam Alerts: fma.govt.nz/consumers/scams/
+- NZ Police: 105
+
+## Blog Articles
+- NZ Fraud Statistics 2025: $3 Billion Lost — The Full Picture
+- How to Protect Yourself from Online Scams in NZ 2026
+- What is Fidelity Insurance and Why Your NZ Business Needs It
+- Cyber Insurance Explained for NZ Small Businesses
+- Identity Theft in NZ — What to Do If You're Targeted
+- Employee Fraud — The Hidden Risk Facing NZ Businesses
+- Social Engineering Attacks — How NZ Businesses Are Being Targeted
+- Romance Scams in NZ — The Growing Epidemic
+- Investment Scam Warning Signs NZ — How to Spot a Fake Platform
+- Business Email Compromise — NZ's Fastest Growing Business Fraud
+- Does Your Bank Protect You from Fraud in NZ?
+- Commercial Crime vs Cyber Insurance — What's the Difference?
+
+## Important Disclaimers
+- FraudProtection.co.nz is an information and referral service only
+- Not a licensed insurer or financial adviser
+- Business enquiries referred to licensed NZ insurance advisers
+- Personal protection section links directly to providers and free services
+- All insurance advice should be confirmed with a licensed professional
