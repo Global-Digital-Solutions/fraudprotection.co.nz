@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 const coverageOptions = [
   { id: 'commercial-crime', label: 'Commercial Crime', desc: 'Internal & external criminal acts' },
@@ -12,7 +13,7 @@ const coverageOptions = [
 ];
 
 export default function QuoteForm() {
-  const [submitted, setSubmitted] = useState(false);
+  const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [selectedCover, setSelectedCover] = useState<string[]>([]);
 
@@ -53,26 +54,11 @@ export default function QuoteForm() {
         body: JSON.stringify(payload),
       });
     } catch {
-      // fail silently — show success state regardless
+      // fail silently — redirect regardless
     }
 
     setIsSubmitting(false);
-    setSubmitted(true);
-  }
-
-  if (submitted) {
-    return (
-      <div className="bg-green-50 border-2 border-green-300 rounded-2xl p-10 text-center">
-        <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-5 shadow-lg">
-          <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
-          </svg>
-        </div>
-        <h2 className="text-2xl font-bold text-slate-900 mb-2">Quote Request Received</h2>
-        <p className="text-slate-600 mb-2">Thank you — a licensed insurance adviser will contact you within one business day.</p>
-        <p className="text-sm text-slate-500">In the meantime, explore our <a href="/business" className="text-red-600 hover:underline">business protection guides</a> to learn more about your options.</p>
-      </div>
-    );
+    router.push('/thank-you/');
   }
 
   return (
