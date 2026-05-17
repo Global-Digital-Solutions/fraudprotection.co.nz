@@ -743,6 +743,466 @@ The Banking Ombudsman's approach offers some protection, and some cases — part
 Understanding this gap is important when thinking about your overall financial protection.`,
   },
   {
+    slug: 'what-is-fraud-insurance-nz',
+    title: 'What Is Fraud Insurance? Your Complete NZ Guide',
+    excerpt: 'Fraud insurance covers a range of products protecting individuals and businesses from financial crime. This guide explains every type, who needs what, and how to access cover in New Zealand.',
+    category: 'advice',
+    heroImage: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80',
+    date: '2026-04-01',
+    readTime: '7 min read',
+    metaTitle: 'What Is Fraud Insurance? Complete NZ Guide 2026 | FraudInsurance.co.nz',
+    metaDescription: 'Fraud insurance explained for New Zealanders — personal and business products, what each covers, who needs it, and how to access cover. Complete 2026 guide.',
+    content: `Fraud insurance is not a single product — it is an umbrella term for a range of insurance coverages designed to protect individuals and businesses from financial losses caused by fraudulent or criminal acts. Understanding what exists, what each product covers, and who needs what is the starting point for making informed decisions about your protection.
+
+**The two main categories: personal and business**
+
+Fraud protection products divide broadly into two categories.
+
+Personal fraud protection is primarily provided through bank zero-liability guarantees and government support services like IDCARE, rather than standalone insurance products. The most significant personal fraud types — identity theft, card fraud, online scams, account takeover, and investment scams — are addressed through a combination of bank protection (for genuinely unauthorised transactions), Netsafe reporting, and the IDCARE support service for identity theft recovery.
+
+Business fraud insurance is more developed as a commercial product category. Three main insurance types are relevant:
+
+1. **Fidelity insurance (employee dishonesty cover):** Covers direct financial losses caused by the fraudulent or dishonest acts of employees — embezzlement, theft, payroll fraud, forged payment authorities. Available as standalone or as part of a commercial crime package.
+
+2. **Commercial crime insurance:** The broadest business fraud cover, encompassing fidelity plus external threats — computer fraud by third parties, forgery, counterfeit currency, and premises/transit theft. Products like Chubb's FraudProtector cover the full spectrum.
+
+3. **Cyber insurance:** Covers the financial consequences of cyber attacks and data breaches — forensic investigation, system restoration, business interruption, ransom payments, Privacy Act breach notification costs, and third-party liability. Usually includes a social engineering fraud add-on option.
+
+**Social engineering insurance: the critical gap-filler**
+
+Business Email Compromise (BEC) and CEO fraud — where employees are manipulated into authorising fraudulent payments — sit in an awkward coverage gap. Standard commercial crime policies often have "authorised payment" exclusions. Standard cyber policies focus on hacking-based losses. A social engineering fraud endorsement (available from insurers like DUAL NZ) fills this specific gap.
+
+**Who needs what**
+
+For individuals: Bank zero-liability protects against card fraud and most unauthorised account access. IDCARE (free) supports identity theft recovery. There is no standalone insurance for online scam losses or investment fraud in New Zealand — prevention is the primary strategy.
+
+For businesses: Most businesses with employees need fidelity or commercial crime insurance. Businesses holding customer data need cyber insurance. Businesses making regular high-value supplier payments need social engineering endorsement. For many businesses, a combined commercial crime + cyber + social engineering package provides the most comprehensive protection.
+
+**How to access business fraud insurance**
+
+Business fraud insurance is primarily accessed through insurance brokers — Rothbury, Marsh NZ, Unite Insurance, and others can all assist. For businesses seeking a referral to a licensed adviser, submit a quote request through FraudInsurance.co.nz.
+
+**Key questions to ask your broker**
+
+When reviewing fraud insurance:
+- Does my commercial crime policy include social engineering? If not, how do I add it?
+- What is the discovery period on my fidelity policy?
+- Does my cyber policy cover social engineering fraud, and what is the sublimit?
+- Are my policy limits adequate for my maximum realistic exposure?
+- What does the claims notification requirement look like in practice?
+
+Understanding the answers to these questions before you need to make a claim is the most important step in building a complete fraud protection strategy.`,
+  },
+  {
+    slug: 'cyber-insurance-vs-commercial-crime-nz',
+    title: 'Cyber Insurance vs Commercial Crime Insurance — What\'s the Difference?',
+    excerpt: 'Both cover fraud, but they protect against different things. Here\'s how to understand the overlap, the gaps, and when your business needs both — with NZ provider examples.',
+    category: 'business',
+    heroImage: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1600&q=80',
+    date: '2026-04-10',
+    readTime: '7 min read',
+    metaTitle: 'Cyber Insurance vs Commercial Crime Insurance NZ 2026 | Key Differences | FraudInsurance.co.nz',
+    metaDescription: 'Cyber insurance and commercial crime insurance both cover fraud but protect different risks. Learn the differences, overlaps, and gaps — and when NZ businesses need both.',
+    content: `Many business owners assume that having one form of fraud insurance means they are fully covered. The reality is more nuanced — and the gaps between commercial crime and cyber insurance are where significant uninsured losses occur.
+
+**Commercial crime insurance: the traditional fraud cover**
+
+Commercial crime insurance was designed long before the internet, to cover the classic forms of business fraud: an employee stealing cash, a forged cheque, a fraudulent supplier invoice. Modern commercial crime policies have evolved to include computer fraud — but in specific, limited ways.
+
+*What commercial crime covers:*
+- Employee dishonesty and embezzlement (the fidelity component)
+- Forgery and alteration of financial instruments
+- Counterfeit currency
+- Computer fraud: where a criminal directly manipulates your computer system to cause a fraudulent transfer
+- Premises and in-transit theft (some policies)
+
+*What it doesn't cover:*
+- The cost of investigating and responding to a cyber attack
+- Business interruption from a ransomware event
+- Data breach notification costs under the Privacy Act
+- Third-party liability for customer data compromised in a breach
+- Social engineering losses where an employee was deceived (often excluded as "authorised payment")
+
+**Cyber insurance: the modern coverage layer**
+
+Cyber insurance was developed to address what commercial crime policies cannot: the full financial consequence of a cyber event.
+
+*What cyber covers:*
+- Forensic investigation to determine what happened
+- System restoration and data recovery
+- Business interruption during system downtime
+- Ransom payments and negotiation
+- Privacy breach notification costs (mandatory under the Privacy Act 2020)
+- PR and crisis communication management
+- Third-party liability to affected customers
+- Regulatory investigation costs
+
+*What it doesn't cover:*
+- Employee embezzlement without a cyber element
+- Physical theft of assets
+- Traditional forgery or counterfeit currency losses
+- Social engineering (often excluded or available only as an add-on)
+
+**The dangerous overlap zone: computer fraud**
+
+Both policies may cover "computer fraud" — but they define it differently. Commercial crime's computer fraud section covers losses where a criminal directly manipulates your financial systems. Cyber's computer crime section covers similar events but frames them as cyber incidents.
+
+This overlap creates a risk: each insurer may argue the loss falls under the other policy. For businesses with both covers, make sure the policies are coordinated (ideally through the same broker) to avoid disputes at claim time.
+
+**Social engineering: the gap neither covers by default**
+
+Business Email Compromise and CEO fraud sit in neither camp by default. Commercial crime excludes them as "authorised payments." Cyber excludes them as non-hacking events. A dedicated social engineering endorsement — available as an add-on to DUAL NZ's cyber policy or as part of Chubb's FraudProtector — is required to close this gap.
+
+**NZ provider examples**
+
+| Cover | Provider | Product |
+|---|---|---|
+| Commercial crime | Chubb | FraudProtector |
+| Cyber | DUAL NZ | Cyber + Social Engineering add-on |
+| Cyber | NZI | Cyber Base / Cyber Ultra |
+| Combined approach | AIG | CyberEdge with crime module |
+
+**What most businesses need**
+
+For comprehensive protection, most businesses need:
+1. Fidelity or commercial crime insurance (for employee fraud and traditional crime)
+2. Cyber insurance (for data breaches, ransomware, and Privacy Act obligations)
+3. Social engineering endorsement on the cyber policy (for BEC and payment diversion)
+
+The cost of all three together is typically $3,000-$8,000 per year for an SME — a fraction of the average fraud loss.
+
+For tailored advice on your specific combination, submit a quote request and a licensed adviser will help you map your exposures.`,
+  },
+  {
+    slug: 'how-to-make-a-fraud-insurance-claim-nz',
+    title: 'How to Make a Fraud Insurance Claim in NZ — Step by Step',
+    excerpt: 'Making a fraud insurance claim requires specific steps in the right order. What to document, common mistakes that cost you coverage, and what to expect from the process.',
+    category: 'advice',
+    heroImage: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1600&q=80',
+    date: '2026-04-15',
+    readTime: '7 min read',
+    metaTitle: 'How to Make a Fraud Insurance Claim NZ 2026 | Step by Step Guide | FraudInsurance.co.nz',
+    metaDescription: 'A step-by-step guide to making a fraud insurance claim in New Zealand. What to document, notification requirements, common mistakes, and realistic timeframes.',
+    content: `The quality of your fraud insurance claim outcome depends significantly on how quickly and correctly you respond when fraud is discovered. Unlike a property claim (where the damage is obvious and immediate), fraud claims require specific steps that can make or break your coverage.
+
+**Step 1: Notify your insurer immediately — don't wait for certainty**
+
+The single most common mistake in fraud insurance claims is delayed notification. Most policies require you to notify your insurer "as soon as reasonably possible" after you first have reasonable grounds to believe a covered loss has occurred — not after you have confirmed it.
+
+If you suspect employee fraud, or discover what looks like a fraudulent transfer, call your broker and insurer immediately — even if you're not certain. Waiting to gather evidence before notifying can breach the policy condition and jeopardise your entire claim.
+
+Your broker should be your first call. They will guide you through the notification process, help you present the facts correctly, and manage the insurer relationship throughout.
+
+**Step 2: Preserve all evidence**
+
+Do not delete, alter, or allow access to any documents, systems, or communications that may be relevant to the fraud until your insurer has given guidance. This includes:
+- Bank statements and transaction records
+- Emails and communications with the suspected fraudster or third party
+- Accounting records and reconciliations
+- System access logs
+- CCTV footage (if relevant)
+
+Instruct IT to preserve system logs and do not allow the suspected employee access to systems before forensic preservation is complete.
+
+**Step 3: Report to NZ Police**
+
+Most fraud policies require you to report the fraud to NZ Police. Call 105 or file online at police.govt.nz. Note the police report number — you will need this for the claim. The police investigation may proceed separately from and at a different pace from the insurance claim.
+
+**Step 4: Engage forensic specialists**
+
+For significant fraud claims, your insurer will typically appoint or approve forensic specialists — forensic accountants, digital forensics firms, or loss adjusters. Follow their instructions on evidence preservation and access.
+
+Do not conduct your own forensic investigation independently before engaging with the insurer. Self-directed investigation can inadvertently corrupt digital evidence.
+
+**Step 5: Quantify the loss**
+
+Work with your forensic accountant to quantify the full extent of the loss. This typically involves:
+- Identifying the period of the fraud (start to discovery)
+- Tracing all fraudulent transactions
+- Calculating the total direct financial loss
+- Distinguishing direct losses (covered) from consequential losses (often excluded)
+
+**Common mistakes that cost you coverage**
+
+- Confronting the suspected fraudster before securing evidence — this often results in evidence destruction
+- Waiting weeks before reporting to your insurer
+- Settling with or paying an employee before the insurance claim is finalised (this can release the insurer from subrogation rights)
+- Destroying records in the ordinary course of business without realising they are relevant
+- Agreeing to a deed of settlement or confidentiality agreement with the fraudster without insurer consent
+
+**Timeframes**
+
+Simple fidelity claims with clear evidence: 3-6 months
+Complex cases with disputed facts, large amounts, or international elements: 12-24 months
+Cyber insurance claims involving breach response: typically 3-9 months from notification to finalisation
+
+**What the insurer will check**
+
+Your insurer will assess: whether the loss falls within the policy coverage, whether you complied with notification requirements, whether any policy exclusions apply (prior acts, authorised payments, etc.), and whether the loss is fully quantified. Cooperation with the investigation is typically a condition of coverage.
+
+Working with an experienced broker throughout the claims process significantly improves outcomes — they can advocate on your behalf and help navigate coverage interpretations.`,
+  },
+  {
+    slug: 'nz-privacy-act-2020-business-obligations',
+    title: 'NZ Privacy Act 2020: What Your Business Must Do After a Data Breach',
+    excerpt: 'The Privacy Act 2020 created mandatory breach notification obligations with real consequences. Here\'s what businesses must do — and how cyber insurance helps comply.',
+    category: 'business',
+    heroImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80',
+    date: '2026-04-20',
+    readTime: '7 min read',
+    metaTitle: 'NZ Privacy Act 2020 Business Obligations | Data Breach Response & Cyber Insurance | FraudInsurance.co.nz',
+    metaDescription: 'The Privacy Act 2020 requires NZ businesses to notify the Privacy Commissioner of serious data breaches. Learn your obligations, the consequences, and how cyber insurance helps.',
+    content: `The Privacy Act 2020, which came into force on 1 December 2020, significantly strengthened New Zealand's data privacy framework. For businesses that suffer a data breach — through a cyber attack, accidental disclosure, or employee action — the Act creates mandatory notification obligations that can be both costly and reputationally damaging.
+
+**What is a "notifiable privacy breach"?**
+
+Not every data breach requires notification. The Privacy Act's threshold is a breach that:
+1. Has caused serious harm to an individual, or
+2. Is likely to cause serious harm to an individual
+
+"Serious harm" includes significant financial loss, physical harm, significant reputational damage, or loss of employment or business opportunities resulting from the breach of the individual's privacy.
+
+Breaches involving sensitive categories of information — health data, financial data, identity information — are more likely to meet the serious harm threshold.
+
+**Who must be notified?**
+
+When a notifiable breach occurs, the business must notify:
+1. The Privacy Commissioner (at privacy.govt.nz) as soon as practicable
+2. The affected individual(s), unless the Privacy Commissioner directs otherwise or notification would itself cause harm
+
+The notification must include: what happened, what information was affected, what the business is doing in response, and what the individual can do to protect themselves.
+
+**What are the consequences of non-compliance?**
+
+Failure to notify a notifiable breach can result in:
+- Investigation by the Privacy Commissioner
+- A compliance notice requiring the business to take specific actions
+- A civil penalty of up to $10,000 for failing to comply with a compliance notice
+- Adverse publicity and reputational damage from a public Privacy Commissioner report
+- Increased regulatory scrutiny going forward
+
+While the direct fine is capped at $10,000, the reputational and commercial consequences of a badly managed breach — particularly where notification was delayed or avoided — can far exceed this.
+
+**The practical cost of breach response**
+
+The obligation to notify creates direct costs that many businesses underestimate:
+- Legal review of whether the breach is notifiable ($2,000-$10,000+)
+- Drafting and sending notification letters to affected individuals
+- For large breaches: printing, postage, and call centre costs for recipient inquiries
+- Credit monitoring services for affected individuals (sometimes offered as remediation)
+- PR and communications management
+- IT forensic investigation to understand the scope of the breach
+
+For a breach affecting 1,000 customers, notification and response costs can easily reach $50,000-$150,000 before any third-party liability is considered.
+
+**How cyber insurance addresses Privacy Act obligations**
+
+Cyber insurance is specifically designed to cover Privacy Act breach response costs. A well-structured cyber policy includes:
+
+- **Forensic investigation:** Determining what data was accessed, by whom, and for how long
+- **Legal assessment:** Advice on whether the breach is notifiable and the notification obligations
+- **Notification costs:** The cost of preparing and sending notifications to affected individuals and the Privacy Commissioner
+- **Credit monitoring:** Providing affected individuals with credit monitoring services as part of remediation
+- **Crisis communications:** PR management to handle media inquiries and public communication
+- **Regulatory response:** Legal support for responding to Privacy Commissioner investigation
+
+**Which businesses are most exposed?**
+
+Any business that holds personal information about customers or employees faces Privacy Act obligations on breach. Higher-risk sectors include:
+- Healthcare providers (health data is among the most sensitive)
+- Financial services businesses (financial data, account details)
+- Professional services firms (client information)
+- E-commerce businesses (payment and purchase data)
+- Any business with a substantial customer database
+
+**Practical steps**
+
+1. Conduct a data inventory — know what personal information your business holds and where
+2. Implement a Privacy Act response plan — who does what when a breach is discovered
+3. Train staff on identifying and escalating potential breaches
+4. Review your cyber insurance to confirm it covers Privacy Act breach response costs
+5. Know the Privacy Commissioner's reporting process — privacy.govt.nz
+
+For businesses without cyber insurance, the Privacy Act creates a compelling argument for coverage. The notification obligations alone — which apply regardless of whether the breach was malicious or accidental — create costs that cyber insurance is specifically designed to address.`,
+  },
+  {
+    slug: 'protect-your-business-from-employee-fraud',
+    title: 'How to Protect Your Business from Employee Fraud — A Practical Guide',
+    excerpt: 'The average employee fraud costs $150,000+ and runs for 18 months before detection. Here are the controls that actually work — and why fidelity insurance is the essential backstop.',
+    category: 'business',
+    heroImage: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1600&q=80',
+    date: '2026-04-25',
+    readTime: '7 min read',
+    metaTitle: 'Protect Your Business from Employee Fraud NZ 2026 | Controls & Fidelity Insurance | FraudInsurance.co.nz',
+    metaDescription: 'Employee fraud costs NZ businesses hundreds of millions each year. Practical prevention controls that work, red flags to watch for, and why fidelity insurance is essential.',
+    content: `Employee fraud is the most statistically significant financial crime risk for most businesses — yet it is the one most often dismissed with "it won't happen to us." The uncomfortable reality, confirmed by decades of global research that reflects local patterns, is that it happens to businesses of all sizes, in all sectors, and the perpetrators are almost always trusted employees.
+
+**The statistics that should make every business owner sit up**
+
+The Association of Certified Fraud Examiners (ACFE) data paints a clear picture:
+- Businesses lose approximately 5% of revenue to fraud annually
+- The median loss per fraud case exceeds $150,000
+- The average employee fraud runs for 18 months before detection
+- Over 90% of fraudsters had no prior criminal record
+- 43% of fraudsters had been with the organisation for more than five years
+
+For a $3 million revenue business, 5% means $150,000 lost every year. An 18-month detection lag means $225,000 before anyone notices. These are not outlier scenarios — they are the statistical norm for organisations without robust fraud management.
+
+**Red flags: warning signs of employee fraud**
+
+The signs of employee fraud are often visible in retrospect but overlooked in real time. Train yourself and your managers to notice:
+
+*Financial anomalies:*
+- Unexplained variances in accounts or stock that "get resolved" without clear explanation
+- Accounts payable entries to unfamiliar vendors
+- Duplicate payments or round-number payments
+- Journal entries without supporting documentation
+- Declining gross margins without corresponding changes in cost inputs
+
+*Behavioural signals:*
+- An employee who never takes leave and always handles their own workload — potentially to avoid someone else covering and discovering the fraud
+- Unusually close relationships with specific vendors or customers
+- Lifestyle significantly inconsistent with known salary (new car, expensive holidays, home renovations)
+- Defensiveness about sharing duties or financial processes
+- Coming in very early, staying very late, or working weekends when no one else is there
+
+*Process red flags:*
+- A single person controlling a financial process from end to end without oversight
+- Reconciliations that are always done by the same person and never independently reviewed
+- Cheque books, tokens, or system access not secured appropriately
+
+**Controls that actually work**
+
+Effective fraud prevention combines structural controls with cultural elements:
+
+*Structural controls:*
+1. **Segregation of duties:** Whoever processes payments should not also reconcile the bank statement. Whoever approves invoices should not also have system access to add new vendors. Genuine segregation is the most powerful structural fraud control.
+
+2. **Dual authorisation for payments:** Any payment above a threshold requires two separate approvals. Make these genuine — the second approver should actually review the underlying documentation, not just countersign.
+
+3. **Independent reconciliation:** Bank reconciliations reviewed by someone other than the person who processes payments. The business owner doing a monthly review of reconciliations is a powerful deterrent.
+
+4. **Supplier masterfile controls:** New vendor additions and banking detail changes should require additional authorisation and verification by someone outside the accounts payable function.
+
+5. **Expense claim scrutiny:** Regular review of expense claims against supporting receipts, by someone not in the same team as the claimant.
+
+*Cultural controls:*
+6. **Anonymous reporting channels:** A tip line, email inbox, or third-party reporting service through which employees can report concerns without personal risk. ACFE research shows tips are the single most common fraud detection method — more effective than audits.
+
+7. **Clear consequences:** Staff should know that fraud will be prosecuted and results in immediate termination. A visible, firm position on fraud reduces opportunistic theft.
+
+8. **Background checks for financial roles:** Reference checks and criminal background checks for all roles with financial access. Credit checks are appropriate for senior finance positions.
+
+**Why controls aren't enough**
+
+Controls reduce the likelihood and scale of fraud — they don't eliminate it. A determined, long-tenured employee with deep knowledge of your control environment can often circumvent controls they helped design. The person doing the bank reconciliation has significant scope to hide their own fraud.
+
+This is why fidelity insurance exists: to provide the financial backstop when controls are circumvented, which they inevitably are in some organisations over time.
+
+**Fidelity insurance: the essential financial backstop**
+
+Fidelity insurance covers direct financial losses from employee dishonesty. For most SMEs, cover is available from $800-$2,000 per year — typically less than a week's wages for the person with the greatest financial access.
+
+The claims trigger doesn't require a criminal conviction — just evidence on the balance of probabilities that an employee committed a dishonest act. Many fraud cases are settled without prosecution; fidelity claims can still succeed.
+
+Given the average employee fraud loss exceeds $150,000, fidelity insurance at $1,500 per year represents exceptional value as a financial safety net.
+
+Talk to a specialist broker — Rothbury, Marsh, or Unite Insurance — or submit a referral request through FraudInsurance.co.nz.`,
+  },
+  {
+    slug: 'investment-scam-warning-signs-nz-2026',
+    title: 'Investment Scam Warning Signs NZ 2026 — How to Spot a Fake Platform',
+    excerpt: 'NZ investors lost over $100 million to investment scams in 2024. Here\'s how to recognise fake platforms, check FMA registration, and what to do if you\'ve been targeted.',
+    category: 'personal',
+    heroImage: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1600&q=80',
+    date: '2026-05-01',
+    readTime: '7 min read',
+    metaTitle: 'Investment Scam Warning Signs NZ 2026 | How to Spot Fake Platforms | FraudInsurance.co.nz',
+    metaDescription: 'Investment scams cost NZ investors over $100m in 2024. Learn to spot fake platforms, check FMA registration, real NZ examples, and what to do if you\'ve been victimised.',
+    content: `Investment scams are the highest-value fraud category by individual loss in New Zealand. The FMA issued more than 50 warning notices in 2025 — the highest annual total on record — and actual losses significantly exceed what is reported, because many victims are too embarrassed to come forward.
+
+Here is what you need to know to protect yourself and your money.
+
+**Why investment scams are so effective**
+
+Investment scams are uniquely effective because they appeal to legitimate aspirations — financial security, retirement planning, wealth building — rather than exploiting panic or urgency. They invest significant time in building credibility before requesting money. And they often produce early "returns" that feel real, making victims more likely to invest further.
+
+The targets are not naive or financially illiterate. Investment scam victims include professionals, business owners, and retirees with significant savings. The scams are sophisticated enough to fool people who would never fall for a Nigerian prince email.
+
+**The anatomy of a modern NZ investment scam**
+
+**Stage 1 — Contact:** Unsolicited contact via social media (Facebook, Instagram, LinkedIn), a dating app, WhatsApp, or sometimes a "wrong number" text that turns into a conversation. The contact seems friendly and coincidental.
+
+**Stage 2 — Relationship building:** Over days or weeks, the contact becomes a regular conversation partner — sharing life details, asking about yours, expressing genuine-seeming interest. For pig butchering scams, this phase can last months.
+
+**Stage 3 — The introduction:** Casually mentioning an "investment platform" that has been doing well for them. Offering to show you how it works. Early demonstration of apparently impressive returns.
+
+**Stage 4 — Initial investment and fake profits:** You invest a small amount. The platform shows impressive gains. You can even withdraw a small amount (which is actually funded from your initial deposit) to "prove" it works.
+
+**Stage 5 — Escalation:** Encouraged to invest more. Family or friends may be introduced. The "profits" continue to grow on screen.
+
+**Stage 6 — Withdrawal barriers:** When you try to withdraw significant funds, new obstacles appear — taxes, fees, verification requirements, minimum balance rules — all requiring more money to "release" your profits.
+
+**Stage 7 — Disappearance:** The platform becomes inaccessible. All contact ceases. The money is gone.
+
+**Real NZ examples (2024-2025)**
+
+The FMA documented multiple cases in their 2025 annual report:
+- A Wellington couple lost $180,000 to a platform they found through a Facebook advertisement featuring fabricated celebrity endorsements
+- An Auckland small business owner lost $95,000 through a LinkedIn contact who gradually introduced a "crypto arbitrage platform"
+- A Christchurch retiree lost $250,000 over 14 months through a pig butchering romance scam that began on a legitimate dating app
+
+These are not unusual cases — they represent the typical profile of investment scam victims.
+
+**Warning signs: what to look for**
+
+*About the offer:*
+- Guaranteed or unusually high returns (anything over 5% per month should be treated with extreme suspicion)
+- Time pressure — "this window closes tonight"
+- Recommendation from someone you met only online
+- Cryptocurrency-only investment platforms
+- Platforms you cannot find independently reviewed by genuine users
+
+*About the platform:*
+- New website with no real history (check domain age at whois.domaintools.com)
+- No physical address or only a virtual office address
+- Not listed on the FMA's Financial Service Providers Register
+- Customer support via WhatsApp or Telegram only
+- No Product Disclosure Statement available
+
+*About the contact:*
+- Met only online and can never video call or meet in person
+- Has an unusually attractive or successful social media presence (reverse image search their photos)
+- Deflects questions about regulatory status or investment strategy details
+- Discourages you from discussing with family or an independent adviser
+
+**How to verify any investment in NZ**
+
+1. **Check the FSPR:** Every legitimate financial adviser or investment firm must be on the Financial Service Providers Register (fspr.govt.nz). Search the firm name AND the individual's name. Confirm the registration is current.
+
+2. **Check the FMA Warning List:** fma.govt.nz/consumers/scams/ lists known scam operations. Check it for the specific firm name and for similar-sounding names — clone firms often use near-identical names.
+
+3. **Search for independent reviews:** "[Firm name] review NZ" or "[Firm name] scam" — if a firm is legitimate and operating, there will be independent reviews and references. Total absence of independent information is suspicious.
+
+4. **Request a Product Disclosure Statement:** All regulated investment offers require a PDS. If none is available, the offer is unregulated.
+
+5. **Call the FMA:** 0800 434 566 — the FMA can confirm whether a firm or individual is registered and whether any warnings exist.
+
+**What to do if you've been victimised**
+
+Act immediately:
+1. Stop all contact with the platform and the contact person
+2. Contact your bank immediately to attempt recall of any transfers — every hour counts
+3. Report to the FMA (0800 434 566) — provide all details about the platform and contact
+4. Report to NZ Police (105)
+5. Report to Netsafe (0508 638 723)
+6. If you provided personal information, contact IDCARE (0800 432 273)
+
+Do not pay any "recovery fee" to anyone claiming they can retrieve your funds — these are secondary scams targeting people who have already been victimised.
+
+Realistic expectations: investment scam recovery is difficult. Under 10% of victims recover significant funds. The actions above give you the best available chance and protect others by adding to the intelligence picture.`,
+  },
+  {
     slug: 'commercial-crime-vs-cyber-insurance-nz',
     title: 'Commercial Crime Insurance vs Cyber Insurance — What\'s the Difference?',
     excerpt: 'Both cover fraud, but they protect different things. Understanding the gap between commercial crime and cyber insurance is critical for businesses.',

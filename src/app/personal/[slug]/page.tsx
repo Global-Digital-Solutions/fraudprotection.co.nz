@@ -55,10 +55,21 @@ export default function PersonalTypePage({ params }: Props) {
     })),
   } : null;
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.fraudinsurance.co.nz/' },
+      { '@type': 'ListItem', position: 2, name: 'Personal Protection', item: 'https://www.fraudinsurance.co.nz/personal/' },
+      { '@type': 'ListItem', position: 3, name: type.name, item: `https://www.fraudinsurance.co.nz/personal/${type.slug}/` },
+    ],
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Breadcrumb */}
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
@@ -143,6 +154,18 @@ export default function PersonalTypePage({ params }: Props) {
                   ))}
                 </ul>
               </div>
+
+              {/* Long-form editorial content */}
+              {type.longFormContent && type.longFormContent.length > 0 && (
+                <div className="space-y-6">
+                  {type.longFormContent.map((section) => (
+                    <div key={section.heading}>
+                      <h2 className="text-xl font-bold text-slate-900 mb-3">{section.heading}</h2>
+                      <p className="text-sm text-slate-700 leading-relaxed whitespace-pre-line">{section.body}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
 
               {/* FAQs */}
               {type.faqs.length > 0 && (
