@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { businessSectors } from '@/data/businessSectors';
 
 export const metadata: Metadata = {
-  title: 'Business Fraud Insurance by Sector NZ 2026 | FraudProtection.co.nz',
+  title: 'Business Fraud Insurance by Sector NZ 2026 | FraudInsurance.co.nz',
   description: 'Find fraud insurance specific to your industry — from small business and retail to finance, healthcare, construction, and not-for-profit.',
-  alternates: { canonical: 'https://www.fraudprotection.co.nz/sectors/' },
+  alternates: { canonical: 'https://www.fraudinsurance.co.nz/sectors/' },
 };
 
 export default function SectorsPage() {

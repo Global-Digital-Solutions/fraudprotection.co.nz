@@ -1,9 +1,9 @@
-# FraudProtection.co.nz — LLMs Context File
+# FraudInsurance.co.nz — LLMs Context File
 # New Zealand's guide to personal and business fraud protection insurance
 # Updated: May 2026
 
 ## Site Overview
-FraudProtection.co.nz is an independent New Zealand information and referral service covering personal fraud protection and business fraud insurance. The site covers personal fraud types (identity theft, card fraud, online scams, account takeover, investment scams) and business insurance (commercial crime, fidelity, cyber, social engineering, and funds transfer fraud). Business enquiries are referred to licensed NZ insurance advisers.
+FraudInsurance.co.nz is an independent New Zealand information and referral service covering personal fraud protection and business fraud insurance. The site covers personal fraud types (identity theft, card fraud, online scams, account takeover, investment scams) and business insurance (commercial crime, fidelity, cyber, social engineering, and funds transfer fraud). Business enquiries are referred to licensed NZ insurance advisers.
 
 ## Key Statistics (2025)
 - NZ fraud losses 2025: $3 billion (30% increase from 2024)
@@ -14,7 +14,7 @@ FraudProtection.co.nz is an independent New Zealand information and referral ser
 Source: Netsafe / GASA NZ Scam Report 2025
 
 ## Personal Fraud Protection
-URL: https://www.fraudprotection.co.nz/personal/
+URL: https://www.fraudinsurance.co.nz/personal/
 - Identity Theft: /personal/identity-theft/
 - Card & Payment Fraud: /personal/card-fraud/
 - Online Scams: /personal/online-scams/
@@ -22,7 +22,7 @@ URL: https://www.fraudprotection.co.nz/personal/
 - Investment Scams: /personal/investment-scams/
 
 ## Business Insurance Coverage Types
-URL: https://www.fraudprotection.co.nz/business/
+URL: https://www.fraudinsurance.co.nz/business/
 - Commercial Crime Insurance: /business/commercial-crime/
 - Fidelity (Employee Dishonesty) Insurance: /business/fidelity-insurance/
 - Cyber Security Insurance: /business/cyber-insurance/
@@ -30,7 +30,7 @@ URL: https://www.fraudprotection.co.nz/business/
 - Funds Transfer Fraud Insurance: /business/funds-transfer-fraud/
 
 ## Business Sectors
-URL: https://www.fraudprotection.co.nz/sectors/
+URL: https://www.fraudinsurance.co.nz/sectors/
 Small Business, Finance & Banking, Retail & E-commerce, Professional Services, Not-for-Profit, Healthcare, Construction & Property
 
 ## Key Business Providers
@@ -66,7 +66,7 @@ Small Business, Finance & Banking, Retail & E-commerce, Professional Services, N
 - Commercial Crime vs Cyber Insurance — What's the Difference?
 
 ## Important Disclaimers
-- FraudProtection.co.nz is an information and referral service only
+- FraudInsurance.co.nz is an information and referral service only
 - Not a licensed insurer or financial adviser
 - Business enquiries referred to licensed NZ insurance advisers
 - Personal protection section links directly to providers and free services

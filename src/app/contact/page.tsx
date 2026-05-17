@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Contact FraudProtection.co.nz | NZ Fraud Insurance Enquiries',
-  description: 'Contact FraudProtection.co.nz for business fraud insurance enquiries, general questions, or to report issues with the site.',
-  alternates: { canonical: 'https://www.fraudprotection.co.nz/contact/' },
+  title: 'Contact FraudInsurance.co.nz | NZ Fraud Insurance Enquiries',
+  description: 'Contact FraudInsurance.co.nz for business fraud insurance enquiries, general questions, or to report issues with the site.',
+  alternates: { canonical: 'https://www.fraudinsurance.co.nz/contact/' },
 };
 
 export default function ContactPage() {
@@ -55,7 +55,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-4">Send Us a Message</h2>
               <form action="https://formsubmit.co/hello@cover4you.co.nz" method="POST" className="space-y-4">
-                <input type="hidden" name="_subject" value="Website enquiry — FraudProtection.co.nz" />
+                <input type="hidden" name="_subject" value="Website enquiry — FraudInsurance.co.nz" />
                 <input type="hidden" name="_captcha" value="false" />
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-1.5">Name</label>

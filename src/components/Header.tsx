@@ -18,7 +18,7 @@ export default function Header() {
               </svg>
             </div>
             <span className="font-bold text-white text-base sm:text-lg leading-tight">
-              FraudProtection<span className="text-red-400">.co.nz</span>
+              FraudInsurance<span className="text-red-400">.co.nz</span>
             </span>
           </Link>
 

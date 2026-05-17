@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: sector.metaTitle,
     description: sector.metaDescription,
-    alternates: { canonical: `https://www.fraudprotection.co.nz/sectors/${sector.slug}/` },
+    alternates: { canonical: `https://www.fraudinsurance.co.nz/sectors/${sector.slug}/` },
   };
 }
 

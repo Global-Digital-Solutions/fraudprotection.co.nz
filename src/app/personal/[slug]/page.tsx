@@ -16,11 +16,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: type.metaTitle,
     description: type.metaDescription,
-    alternates: { canonical: `https://www.fraudprotection.co.nz/personal/${type.slug}/` },
+    alternates: { canonical: `https://www.fraudinsurance.co.nz/personal/${type.slug}/` },
     openGraph: {
       title: type.metaTitle,
       description: type.metaDescription,
-      url: `https://www.fraudprotection.co.nz/personal/${type.slug}/`,
+      url: `https://www.fraudinsurance.co.nz/personal/${type.slug}/`,
       images: [{ url: type.heroImage, width: 1600, alt: `${type.name} protection NZ` }],
     },
   };
@@ -40,9 +40,9 @@ export default function PersonalTypePage({ params }: Props) {
     image: type.heroImage,
     datePublished: '2026-01-01',
     dateModified: '2026-05-17',
-    author: { '@type': 'Organization', name: 'FraudProtection.co.nz', url: 'https://www.fraudprotection.co.nz/about/' },
-    publisher: { '@type': 'Organization', name: 'FraudProtection.co.nz', url: 'https://www.fraudprotection.co.nz/' },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://www.fraudprotection.co.nz/personal/${type.slug}/` },
+    author: { '@type': 'Organization', name: 'FraudInsurance.co.nz', url: 'https://www.fraudinsurance.co.nz/about/' },
+    publisher: { '@type': 'Organization', name: 'FraudInsurance.co.nz', url: 'https://www.fraudinsurance.co.nz/' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://www.fraudinsurance.co.nz/personal/${type.slug}/` },
   };
 
   const faqSchema = type.faqs.length > 0 ? {
@@ -112,7 +112,7 @@ export default function PersonalTypePage({ params }: Props) {
               <div className="flex items-center gap-3 text-xs text-slate-500 border-l-2 border-red-300 pl-4">
                 <div>
                   <span className="font-medium text-slate-700">Written by </span>
-                  <Link href="/about/" className="text-red-600 hover:underline font-medium">FraudProtection Editorial Team</Link>
+                  <Link href="/about/" className="text-red-600 hover:underline font-medium">FraudInsurance Editorial Team</Link>
                   <span className="mx-2">·</span>
                   <span>Updated May 2026</span>
                 </div>

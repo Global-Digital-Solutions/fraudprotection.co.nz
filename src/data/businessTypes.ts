@@ -27,7 +27,7 @@ export const businessTypes: BusinessFraudType[] = [
     description: 'Commercial crime insurance protects businesses from financial losses arising from criminal acts — both from within (employees) and outside (third parties). Purpose-built products like Chubb\'s FraudProtector cover employee dishonesty, computer fraud, forgery, counterfeit currency, and external theft, with options to include client asset protection and defence costs.',
     details: 'Commercial crime is the broadest form of fraud cover for businesses, designed to address the full spectrum of criminal exposures. It is particularly important for businesses that handle significant cash flows, maintain client assets, or employ staff with financial access. Policy limits typically range from $100,000 to multi-million dollar limits for larger corporates.',
     heroImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80',
-    metaTitle: 'Commercial Crime Insurance NZ 2026 | Chubb FraudProtector & More | FraudProtection.co.nz',
+    metaTitle: 'Commercial Crime Insurance NZ 2026 | Chubb FraudProtector & More | FraudInsurance.co.nz',
     metaDescription: 'Commercial crime insurance protects NZ businesses from employee fraud, forgery, computer crime, and external theft. Compare providers and get a quote today.',
     keyRisks: [
       'Employee embezzlement and theft of funds',
@@ -70,7 +70,7 @@ export const businessTypes: BusinessFraudType[] = [
     description: 'Fidelity insurance — also called employee dishonesty insurance — covers financial losses your business suffers as a direct result of fraudulent or dishonest acts by your employees. This includes embezzlement, theft of cash or assets, forgery of payment instructions, and other deliberate criminal acts by staff. Employee fraud is estimated to cost businesses hundreds of millions of dollars annually.',
     details: 'Research consistently shows that the majority of business fraud is committed by trusted, often long-tenured employees — not strangers. The average employee fraud runs for 18 months before detection and causes $150,000+ in losses. Fidelity insurance is available as a standalone policy or as part of a broader commercial crime package, with coverage available from specialist brokers including Rothbury and Unite Insurance.',
     heroImage: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1600&q=80',
-    metaTitle: 'Fidelity Insurance NZ 2026 | Employee Fraud & Dishonesty Cover | FraudProtection.co.nz',
+    metaTitle: 'Fidelity Insurance NZ 2026 | Employee Fraud & Dishonesty Cover | FraudInsurance.co.nz',
     metaDescription: 'Employee fraud costs NZ businesses hundreds of millions each year. Fidelity insurance protects against embezzlement, theft, and dishonesty by your own staff.',
     keyRisks: [
       'Cash theft from registers or petty cash',
@@ -112,7 +112,7 @@ export const businessTypes: BusinessFraudType[] = [
     description: 'Cyber insurance is now essential for businesses of all sizes. A cyber attack or data breach can result in significant costs: forensic investigation, system restoration, business interruption losses, regulatory fines, legal liability to affected customers, and PR/crisis communications. Insurers including DUAL, NZI, and Delta Insurance offer cyber products up to $10m in cover.',
     details: 'There has been a dramatic rise in cyber attacks on businesses — from ransomware attacks on critical infrastructure to spear-phishing campaigns targeting SMEs. CERT NZ reported thousands of cyber incidents in 2024-2025. The Privacy Act 2020 also creates mandatory breach notification obligations and potential fines, making cyber insurance not just commercially important but legally relevant.',
     heroImage: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1600&q=80',
-    metaTitle: 'Cyber Insurance NZ 2026 | DUAL, NZI & Delta Insurance | FraudProtection.co.nz',
+    metaTitle: 'Cyber Insurance NZ 2026 | DUAL, NZI & Delta Insurance | FraudInsurance.co.nz',
     metaDescription: 'Cyber attacks are surging in NZ. Compare cyber insurance from DUAL, NZI, and Delta Insurance — covering data breach, ransomware, business interruption, and social engineering fraud.',
     keyRisks: [
       'Ransomware attacks encrypting your business data',
@@ -156,7 +156,7 @@ export const businessTypes: BusinessFraudType[] = [
     description: 'Social engineering fraud occurs when criminals deceive or manipulate your employees into taking actions that result in financial loss — such as transferring funds to a fraudulent account, providing sensitive information, or authorising payments. Common forms include CEO fraud (impersonating the CEO to request urgent payments), invoice fraud (fake supplier invoices), and business email compromise.',
     details: 'Business Email Compromise (BEC) is the most costly form of social engineering fraud, with criminals intercepting or spoofing email communications to redirect supplier payments to fraudulent accounts. The average BEC loss is significantly higher than other fraud types. Because an employee authorised the payment, standard crime insurance often does not cover these losses without a specific social engineering endorsement.',
     heroImage: 'https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=1600&q=80',
-    metaTitle: 'Social Engineering Fraud Insurance NZ 2026 | CEO Fraud & BEC Cover | FraudProtection.co.nz',
+    metaTitle: 'Social Engineering Fraud Insurance NZ 2026 | CEO Fraud & BEC Cover | FraudInsurance.co.nz',
     metaDescription: 'Business Email Compromise and CEO fraud are costing NZ businesses millions. Get specific social engineering fraud cover and protect your business from human hacking.',
     keyRisks: [
       'Business Email Compromise (BEC) diverting supplier payments',
@@ -197,7 +197,7 @@ export const businessTypes: BusinessFraudType[] = [
     description: 'Funds transfer fraud encompasses a range of criminal activities that result in money being sent to fraudulent accounts — whether through direct computer manipulation of payment systems, or through social engineering that tricks employees into initiating the transfer. This is one of the most significant financial crime risks for businesses across all sectors.',
     details: 'This coverage area sits at the intersection of commercial crime, social engineering, and cyber insurance. Some policies cover it under computer fraud provisions; others require a specific endorsement. With businesses losing millions annually to payment diversion and fraudulent instructions, having clear, contractual cover in place is increasingly important for risk management and lender covenants.',
     heroImage: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1600&q=80',
-    metaTitle: 'Funds Transfer Fraud Insurance NZ 2026 | Payment Diversion & Wire Fraud Cover | FraudProtection.co.nz',
+    metaTitle: 'Funds Transfer Fraud Insurance NZ 2026 | Payment Diversion & Wire Fraud Cover | FraudInsurance.co.nz',
     metaDescription: 'Funds transfer fraud costs NZ businesses millions each year. Understand your insurance options and get cover for payment diversion, wire fraud, and computer-initiated transfers.',
     keyRisks: [
       'Unauthorised electronic funds transfers by hackers',

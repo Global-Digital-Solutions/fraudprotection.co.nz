@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { blogPosts } from '@/data/blog';
 
 export const metadata: Metadata = {
-  title: 'Fraud News & Guides NZ 2026 | FraudProtection.co.nz',
+  title: 'Fraud News & Guides NZ 2026 | FraudInsurance.co.nz',
   description: 'Expert guides on fraud protection, NZ scam statistics, business fraud insurance, and how to protect yourself and your business from fraud.',
-  alternates: { canonical: 'https://www.fraudprotection.co.nz/blog/' },
+  alternates: { canonical: 'https://www.fraudinsurance.co.nz/blog/' },
 };
 
 const categoryColors: Record<string, string> = {

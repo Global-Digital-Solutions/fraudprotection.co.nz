@@ -27,7 +27,7 @@ export const personalTypes: PersonalFraudType[] = [
     description: 'Identity theft occurs when someone unlawfully obtains and uses your personal information — name, date of birth, IRD number, driver licence, passport — to commit fraud. Identity theft can result in fraudulent bank accounts, loans, or credit cards being opened in your name, causing lasting financial and reputational damage.',
     details: 'There is no standalone identity theft insurance product available here, but several layers of protection exist: bank zero-liability guarantees, credit bureau monitoring, and the free IDCARE support service. Prevention is the primary defence — secure document disposal, strong unique passwords, and monitoring your credit report are essential.',
     heroImage: 'https://images.unsplash.com/photo-1633265486064-086b219458ec?w=1600&q=80',
-    metaTitle: 'Identity Theft Protection NZ 2026 | What to Do & How to Recover | FraudProtection.co.nz',
+    metaTitle: 'Identity Theft Protection NZ 2026 | What to Do & How to Recover | FraudInsurance.co.nz',
     metaDescription: 'Identity theft affects thousands of New Zealanders each year. Learn how to protect yourself, what to do if you\'re targeted, and what cover is available.',
     stats: [
       { label: 'Adults who encountered identity fraud', value: '1 in 5' },
@@ -73,7 +73,7 @@ export const personalTypes: PersonalFraudType[] = [
     description: 'Card fraud is the most common form of financial fraud. It includes card skimming at ATMs and EFTPOS terminals, card cloning, "card not present" fraud (online purchases with stolen card details), and contactless tap fraud. All major banks offer zero-liability guarantees on eligible accounts when fraud is reported promptly.',
     details: 'Your first line of defence is your bank\'s fraud protection. All major banks — ANZ, BNZ, ASB, Westpac, and Kiwibank — guarantee to reimburse unauthorised card transactions provided you follow their security requirements and report fraud quickly. Card fraud is generally the most straightforward type of fraud to recover from.',
     heroImage: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1600&q=80',
-    metaTitle: 'Card & Payment Fraud Protection NZ 2026 | Bank Cover & How to Report | FraudProtection.co.nz',
+    metaTitle: 'Card & Payment Fraud Protection NZ 2026 | Bank Cover & How to Report | FraudInsurance.co.nz',
     metaDescription: 'Card fraud affects thousands of New Zealanders each year. Compare bank zero-liability protection, understand your rights, and learn how to report card fraud.',
     stats: [
       { label: 'Card fraud losses per year', value: '$100m+' },
@@ -120,7 +120,7 @@ export const personalTypes: PersonalFraudType[] = [
     description: 'Online scams are the fastest-growing form of fraud, with $3 billion lost in 2025 alone. Scams include phishing emails and texts, fake investment platforms, romance and relationship scams, online marketplace fraud, and impersonation of banks, IRD, or government agencies. Unlike card fraud, scam losses are harder to recover because victims voluntarily authorise the payment.',
     details: 'When you are tricked into sending money to a scammer, banks may not automatically refund the loss — because you authorised the payment. We are working toward a Scam Code similar to the UK\'s voluntary code, but currently there is no mandatory reimbursement obligation. Prevention, reporting to Netsafe and Police, and acting quickly to try to reverse transactions are your main options.',
     heroImage: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1600&q=80',
-    metaTitle: 'Online Scam Protection NZ 2026 | Phishing, Investment & Romance Scams | FraudProtection.co.nz',
+    metaTitle: 'Online Scam Protection NZ 2026 | Phishing, Investment & Romance Scams | FraudInsurance.co.nz',
     metaDescription: '$3 billion lost to online scams in NZ in 2025. Learn how to spot and avoid phishing, romance, investment, and marketplace scams — and what to do if you\'re targeted.',
     stats: [
       { label: 'Scam losses in 2025', value: '$3 billion' },
@@ -167,7 +167,7 @@ export const personalTypes: PersonalFraudType[] = [
     description: 'Account takeover (ATO) fraud is where a criminal gains unauthorised access to your online accounts — banking, email, social media, or e-commerce — by stealing credentials through phishing, data breaches, SIM swapping, or credential stuffing attacks. Once inside, they may drain bank accounts, make purchases, or use your identity to defraud your contacts.',
     details: 'SIM swap fraud is a particularly damaging form of ATO, where a criminal convinces your mobile carrier to transfer your phone number to a SIM card they control. This bypasses SMS-based two-factor authentication, giving them access to your banking and email. Multi-factor authentication apps (not SMS) and strong, unique passwords are the best defences.',
     heroImage: 'https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=1600&q=80',
-    metaTitle: 'Account Takeover Fraud NZ 2026 | SIM Swap & Credential Theft | FraudProtection.co.nz',
+    metaTitle: 'Account Takeover Fraud NZ 2026 | SIM Swap & Credential Theft | FraudInsurance.co.nz',
     metaDescription: 'Account takeover is growing in NZ — criminals steal banking and email credentials to drain your accounts. Learn how to protect yourself and what to do.',
     stats: [
       { label: 'Adults affected by account compromise', value: '1 in 10' },
@@ -213,7 +213,7 @@ export const personalTypes: PersonalFraudType[] = [
     description: 'Investment scams are among the most financially devastating fraud types, with individual losses often reaching tens of thousands of dollars. Scammers create sophisticated fake trading platforms, clone legitimate financial services firms, and use social media and dating apps to build relationships before encouraging "investment." Hundreds of millions were lost to investment scams in 2024-2025.',
     details: 'The Financial Markets Authority (FMA) maintains a warning list of investment scams and unlicensed operators. Always verify that a financial adviser is registered on the FMA\'s Financial Service Providers Register (FSPR) before investing. If a return sounds too good to be true, it almost certainly is — legitimate investments are regulated and transparent.',
     heroImage: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1600&q=80',
-    metaTitle: 'Investment Scam Protection NZ 2026 | Crypto Scams & Fake Platforms | FraudProtection.co.nz',
+    metaTitle: 'Investment Scam Protection NZ 2026 | Crypto Scams & Fake Platforms | FraudInsurance.co.nz',
     metaDescription: 'Investment scams are devastating NZ investors. Learn to spot fake trading platforms, crypto scams, and unlicensed advisers — and what to do if you\'re targeted.',
     stats: [
       { label: 'Investment scam losses (2024)', value: '$100m+' },

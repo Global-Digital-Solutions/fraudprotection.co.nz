@@ -4,9 +4,9 @@ import { businessProviders } from '@/data/businessProviders';
 import { personalProviders } from '@/data/personalProviders';
 
 export const metadata: Metadata = {
-  title: 'Fraud Insurance Providers NZ 2026 | Chubb, DUAL, NZI & More | FraudProtection.co.nz',
+  title: 'Fraud Insurance Providers NZ 2026 | Chubb, DUAL, NZI & More | FraudInsurance.co.nz',
   description: 'NZ fraud insurance providers — Chubb FraudProtector, DUAL cyber, NZI, Delta Insurance, Marsh, Rothbury, Unite Insurance and more. Compare business and personal options.',
-  alternates: { canonical: 'https://www.fraudprotection.co.nz/providers/' },
+  alternates: { canonical: 'https://www.fraudinsurance.co.nz/providers/' },
 };
 
 const accessLabels: Record<string, string> = {
@@ -308,10 +308,10 @@ export default function ProvidersPage() {
             <div>
               <p className="text-sm font-semibold text-amber-800 mb-2">Listing Disclaimer</p>
               <p className="text-sm text-amber-700 leading-relaxed mb-3">
-                FraudProtection.co.nz is an independent information and referral website. We have no commercial relationship with any of the insurers or brokers listed on this page, and listings do not constitute endorsements or recommendations of any specific product or provider. Provider information is sourced from publicly available materials and was accurate at the time of publication, but may change. Always verify current policy terms, limits, and pricing directly with the provider or your licensed insurance adviser before purchasing.
+                FraudInsurance.co.nz is an independent information and referral website. We have no commercial relationship with any of the insurers or brokers listed on this page, and listings do not constitute endorsements or recommendations of any specific product or provider. Provider information is sourced from publicly available materials and was accurate at the time of publication, but may change. Always verify current policy terms, limits, and pricing directly with the provider or your licensed insurance adviser before purchasing.
               </p>
               <p className="text-sm text-amber-700 leading-relaxed">
-                Insurance advice is provided by licensed financial advisers. FraudProtection.co.nz is a referral service — it is not an insurer, broker, or financial adviser, and does not hold a Financial Advice Provider licence. The advisers we refer you to are regulated under New Zealand financial services law.
+                Insurance advice is provided by licensed financial advisers. FraudInsurance.co.nz is a referral service — it is not an insurer, broker, or financial adviser, and does not hold a Financial Advice Provider licence. The advisers we refer you to are regulated under New Zealand financial services law.
               </p>
             </div>
           </div>

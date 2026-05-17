@@ -4,9 +4,9 @@ import { blogPosts } from '@/data/blog';
 import { businessProviders } from '@/data/businessProviders';
 
 export const metadata: Metadata = {
-  title: 'Fraud Protection Insurance NZ 2026 | Personal & Business Cover | FraudProtection.co.nz',
+  title: 'Fraud Protection Insurance NZ 2026 | Personal & Business Cover | FraudInsurance.co.nz',
   description: '$3 billion lost to fraud last year. Protect yourself and your business — personal scam protection and commercial crime, fidelity & cyber insurance from leading local providers.',
-  alternates: { canonical: 'https://www.fraudprotection.co.nz/' },
+  alternates: { canonical: 'https://www.fraudinsurance.co.nz/' },
 };
 
 const stats = [
@@ -38,18 +38,18 @@ const featuredProviders = businessProviders.filter(p => p.featured);
 const orgSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'FraudProtection.co.nz',
-  url: 'https://www.fraudprotection.co.nz/',
-  logo: { '@type': 'ImageObject', url: 'https://www.fraudprotection.co.nz/favicon-32x32.png' },
+  name: 'FraudInsurance.co.nz',
+  url: 'https://www.fraudinsurance.co.nz/',
+  logo: { '@type': 'ImageObject', url: 'https://www.fraudinsurance.co.nz/favicon-32x32.png' },
   contactPoint: { '@type': 'ContactPoint', email: 'hello@cover4you.co.nz', contactType: 'customer service' },
 };
 
 const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'FraudProtection.co.nz',
-  url: 'https://www.fraudprotection.co.nz/',
-  potentialAction: { '@type': 'SearchAction', target: 'https://www.fraudprotection.co.nz/search?q={search_term_string}', 'query-input': 'required name=search_term_string' },
+  name: 'FraudInsurance.co.nz',
+  url: 'https://www.fraudinsurance.co.nz/',
+  potentialAction: { '@type': 'SearchAction', target: 'https://www.fraudinsurance.co.nz/search?q={search_term_string}', 'query-input': 'required name=search_term_string' },
 };
 
 export default function HomePage() {

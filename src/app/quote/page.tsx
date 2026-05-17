@@ -3,9 +3,9 @@ import Link from 'next/link';
 import QuoteForm from '@/components/QuoteForm';
 
 export const metadata: Metadata = {
-  title: 'Get a Business Fraud Insurance Quote | FraudProtection.co.nz',
+  title: 'Get a Business Fraud Insurance Quote | FraudInsurance.co.nz',
   description: 'Get a tailored business fraud insurance quote from a licensed adviser. Commercial crime, fidelity, cyber, and social engineering cover for businesses of all sizes.',
-  alternates: { canonical: 'https://www.fraudprotection.co.nz/quote/' },
+  alternates: { canonical: 'https://www.fraudinsurance.co.nz/quote/' },
 };
 
 const trustStats = [
@@ -166,7 +166,7 @@ export default function QuotePage() {
               {/* Disclaimer */}
               <div className="border border-amber-200 bg-amber-50 rounded-xl p-4">
                 <p className="text-xs text-amber-800 leading-relaxed">
-                  <strong>Please note:</strong> FraudProtection.co.nz is an information and referral service. Your enquiry will be handled by a licensed insurance adviser. We are not a licensed insurer or financial adviser, and there is no obligation to purchase.
+                  <strong>Please note:</strong> FraudInsurance.co.nz is an information and referral service. Your enquiry will be handled by a licensed insurance adviser. We are not a licensed insurer or financial adviser, and there is no obligation to purchase.
                 </p>
               </div>
 

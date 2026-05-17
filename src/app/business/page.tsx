@@ -5,9 +5,9 @@ import { businessSectors } from '@/data/businessSectors';
 import { businessProviders } from '@/data/businessProviders';
 
 export const metadata: Metadata = {
-  title: 'Business Fraud Insurance NZ 2026 | Commercial Crime, Fidelity & Cyber Cover | FraudProtection.co.nz',
+  title: 'Business Fraud Insurance NZ 2026 | Commercial Crime, Fidelity & Cyber Cover | FraudInsurance.co.nz',
   description: 'Protect your NZ business from employee fraud, cyber attacks, and payment fraud. Commercial crime, fidelity, and cyber insurance with quotes from licensed advisers.',
-  alternates: { canonical: 'https://www.fraudprotection.co.nz/business/' },
+  alternates: { canonical: 'https://www.fraudinsurance.co.nz/business/' },
 };
 
 export default function BusinessPage() {

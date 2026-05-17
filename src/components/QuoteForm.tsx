@@ -31,7 +31,7 @@ export default function QuoteForm() {
     const fd = new FormData(form);
 
     const payload: Record<string, string> = {
-      _subject: 'New Business Fraud Insurance Quote — FraudProtection.co.nz',
+      _subject: 'New Business Fraud Insurance Quote — FraudInsurance.co.nz',
       _to: 'hello@cover4you.co.nz',
       _cc: 'butlerdarin@gmail.com',
       firstName: fd.get('firstName') as string,
@@ -243,7 +243,7 @@ export default function QuoteForm() {
         <label className="flex items-start gap-3 cursor-pointer">
           <input type="checkbox" name="consent" required className="w-4 h-4 mt-0.5 accent-red-600 flex-shrink-0" />
           <span className="text-xs text-slate-600 leading-relaxed">
-            I consent to FraudProtection.co.nz sharing my contact details with licensed insurance advisers for the purpose of providing a quote. I understand this is a referral service and I am not obligated to purchase any insurance product.
+            I consent to FraudInsurance.co.nz sharing my contact details with licensed insurance advisers for the purpose of providing a quote. I understand this is a referral service and I am not obligated to purchase any insurance product.
           </span>
         </label>
       </div>

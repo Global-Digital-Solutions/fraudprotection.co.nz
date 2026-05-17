@@ -20,7 +20,7 @@ export const blogPosts: BlogPost[] = [
     heroImage: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1600&q=80',
     date: '2026-01-15',
     readTime: '8 min read',
-    metaTitle: 'NZ Fraud Statistics 2025 | $3 Billion Lost to Scams | FraudProtection.co.nz',
+    metaTitle: 'NZ Fraud Statistics 2025 | $3 Billion Lost to Scams | FraudInsurance.co.nz',
     metaDescription: 'New Zealand lost $3 billion to fraud and scams in 2025 — a 30% year-on-year increase. Full breakdown of who is targeted, how, and what it means for you.',
     content: `A grim milestone has been reached: according to the 2025 Netsafe/GASA NZ Scam Report, $3 billion was lost to scams and fraud — a 30% increase from 2024, and representing one of the highest per-capita scam loss rates in the developed world.
 
@@ -68,7 +68,7 @@ The most important step anyone — individual or business — can take is to und
     heroImage: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1600&q=80',
     date: '2026-02-10',
     readTime: '7 min read',
-    metaTitle: 'How to Protect Yourself from Online Scams NZ 2026 | FraudProtection.co.nz',
+    metaTitle: 'How to Protect Yourself from Online Scams NZ 2026 | FraudInsurance.co.nz',
     metaDescription: 'Practical anti-scam advice for New Zealanders in 2026. Learn to spot phishing, investment scams, romance fraud, and what to do if you\'re targeted.',
     content: `Online scams are now a near-daily reality for most people. With 82% of adults encountering scam attempts every week, the question is no longer whether you'll be targeted — it's whether you'll recognise it in time.
 
@@ -132,7 +132,7 @@ Time is critical — the faster you act, the better your chances of recovery.`,
     heroImage: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1600&q=80',
     date: '2026-02-20',
     readTime: '6 min read',
-    metaTitle: 'Fidelity Insurance NZ | What It Is & Why Your Business Needs It | FraudProtection.co.nz',
+    metaTitle: 'Fidelity Insurance NZ | What It Is & Why Your Business Needs It | FraudInsurance.co.nz',
     metaDescription: 'Fidelity insurance protects NZ businesses from employee fraud and embezzlement. Learn what it covers, who needs it, and how to get it.',
     content: `Ask most business owners what their biggest fraud risk is and they'll say external criminals — hackers, scammers, fraudulent suppliers. The reality, confirmed by global and local data, is that the biggest fraud risk for most businesses is someone they trust completely: their own staff.
 
@@ -204,7 +204,7 @@ Fidelity insurance is not expensive relative to the risk it covers. For most bus
     heroImage: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1600&q=80',
     date: '2026-03-05',
     readTime: '8 min read',
-    metaTitle: 'Cyber Insurance NZ Small Business Guide 2026 | Worth It? | FraudProtection.co.nz',
+    metaTitle: 'Cyber Insurance NZ Small Business Guide 2026 | Worth It? | FraudInsurance.co.nz',
     metaDescription: 'Is cyber insurance worth it for NZ small businesses? This guide explains what it covers, average costs, and how to decide if you need it.',
     content: `If someone told you there was a 1-in-5 chance your business would suffer a significant financial loss this year from a single type of risk, you'd insure against it immediately. Yet most small businesses still don't have cyber insurance — despite cyber attacks now affecting more businesses than any other crime type.
 
@@ -269,7 +269,7 @@ DUAL NZ offers cyber insurance directly through their WebRater platform for 500+
     heroImage: 'https://images.unsplash.com/photo-1633265486064-086b219458ec?w=1600&q=80',
     date: '2026-03-12',
     readTime: '6 min read',
-    metaTitle: 'Identity Theft NZ — What To Do Step by Step 2026 | FraudProtection.co.nz',
+    metaTitle: 'Identity Theft NZ — What To Do Step by Step 2026 | FraudInsurance.co.nz',
     metaDescription: 'A step-by-step action plan for NZ identity theft victims. Who to call, what to do first, and how to protect yourself going forward.',
     content: `Discovering your identity has been stolen is one of the most distressing experiences a person can face. The combination of financial loss, violation of privacy, and the sheer administrative burden of recovery can feel overwhelming.
 
@@ -342,7 +342,7 @@ After recovery, implement these permanent protections:
     heroImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80',
     date: '2026-03-25',
     readTime: '7 min read',
-    metaTitle: 'Employee Fraud in NZ Businesses 2026 | How It Happens & How to Stop It | FraudProtection.co.nz',
+    metaTitle: 'Employee Fraud in NZ Businesses 2026 | How It Happens & How to Stop It | FraudInsurance.co.nz',
     metaDescription: 'Employee fraud is the biggest financial crime risk for NZ businesses. Learn how it happens, red flags to watch for, and how to protect your business.',
     content: `Every business owner knows the risks from outside — hackers, scammers, dodgy suppliers. But data consistently shows that the greatest fraud risk for most businesses comes from inside, from someone on the payroll.
 
@@ -413,7 +413,7 @@ Speak to a specialist broker for a quote tailored to your business.`,
     heroImage: 'https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=1600&q=80',
     date: '2026-04-02',
     readTime: '7 min read',
-    metaTitle: 'Social Engineering Attacks NZ 2026 | CEO Fraud & BEC | FraudProtection.co.nz',
+    metaTitle: 'Social Engineering Attacks NZ 2026 | CEO Fraud & BEC | FraudInsurance.co.nz',
     metaDescription: 'Social engineering fraud — CEO fraud, BEC, and fake invoice scams — is costing NZ businesses millions. Learn how it works and how to protect your organisation.',
     content: `The most sophisticated cyber defence in the world can be defeated by a single email to the right employee at the right moment. Social engineering — manipulating people rather than hacking systems — is now the most common pathway into businesses, and the losses are staggering.
 
@@ -475,7 +475,7 @@ DUAL NZ offers a social engineering fraud add-on to their cyber policy with up t
     heroImage: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600&q=80',
     date: '2026-04-15',
     readTime: '7 min read',
-    metaTitle: 'Romance Scams NZ 2026 | How They Work & Warning Signs | FraudProtection.co.nz',
+    metaTitle: 'Romance Scams NZ 2026 | How They Work & Warning Signs | FraudInsurance.co.nz',
     metaDescription: 'Romance scams are devastating New Zealanders across all ages. Learn how pig butchering and fake relationship scams work — and how to protect yourself.',
     content: `The person you've been talking to for three months — the one who seems to understand you completely, sends good morning messages every day, and calls you by a special nickname — may not exist.
 
@@ -545,7 +545,7 @@ Most importantly: do not feel ashamed. These criminals are professionals. The em
     heroImage: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1600&q=80',
     date: '2026-04-28',
     readTime: '6 min read',
-    metaTitle: 'Investment Scam Warning Signs NZ 2026 | Fake Platforms & Crypto Fraud | FraudProtection.co.nz',
+    metaTitle: 'Investment Scam Warning Signs NZ 2026 | Fake Platforms & Crypto Fraud | FraudInsurance.co.nz',
     metaDescription: 'How to spot investment scams in NZ — fake cryptocurrency platforms, clone firms, and unlicensed advisers. Warning signs and FMA verification steps.',
     content: `The Financial Markets Authority issued more investment scam warnings in 2025 than in any previous year. Investment fraud — particularly fake cryptocurrency trading platforms and clone broker firms — has become one of the most significant financial crime categories, with individual losses often exceeding $20,000-$200,000.
 
@@ -622,7 +622,7 @@ Recovery is difficult — often less than 10% of investment scam losses are reco
     heroImage: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1600&q=80',
     date: '2026-05-01',
     readTime: '6 min read',
-    metaTitle: 'Business Email Compromise NZ 2026 | BEC Fraud Prevention Guide | FraudProtection.co.nz',
+    metaTitle: 'Business Email Compromise NZ 2026 | BEC Fraud Prevention Guide | FraudInsurance.co.nz',
     metaDescription: 'Business Email Compromise is NZ\'s fastest growing business fraud. Learn how BEC works, one simple policy that stops 90% of attacks, and how to get insured.',
     content: `You receive an email from a supplier you've worked with for three years. The email looks exactly like their usual correspondence — right address, right name, right tone. It says they've changed their bank account and asks you to update your records before the next payment. You do, and your next payment goes to a criminal.
 
@@ -679,7 +679,7 @@ Contact us for a tailored quote for BEC insurance for your business.`,
     heroImage: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1600&q=80',
     date: '2026-05-05',
     readTime: '8 min read',
-    metaTitle: 'Bank Fraud Protection NZ 2026 | What\'s Really Covered & When Banks Can Decline | FraudProtection.co.nz',
+    metaTitle: 'Bank Fraud Protection NZ 2026 | What\'s Really Covered & When Banks Can Decline | FraudInsurance.co.nz',
     metaDescription: 'NZ banks promise fraud protection but the details matter. Learn what your bank is actually obligated to cover, when they can decline claims, and what to do if they do.',
     content: `Every major bank advertises strong fraud protection. ANZ, BNZ, ASB, Westpac, and Kiwibank all offer some form of "zero liability" or "online banking guarantee" for fraud victims. But the protection these guarantees provide is more limited — and more conditional — than many customers realise.
 
@@ -750,7 +750,7 @@ Understanding this gap is important when thinking about your overall financial p
     heroImage: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1600&q=80',
     date: '2026-05-10',
     readTime: '6 min read',
-    metaTitle: 'Commercial Crime Insurance vs Cyber Insurance NZ 2026 | What\'s the Difference? | FraudProtection.co.nz',
+    metaTitle: 'Commercial Crime Insurance vs Cyber Insurance NZ 2026 | What\'s the Difference? | FraudInsurance.co.nz',
     metaDescription: 'Commercial crime and cyber insurance both protect NZ businesses from fraud — but they cover different risks. Here\'s how to understand the difference and avoid gaps.',
     content: `"We have crime insurance, so we're covered for cyber fraud."
 

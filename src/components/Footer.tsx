@@ -13,7 +13,7 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
                 </svg>
               </div>
-              <span className="font-bold text-white text-base">FraudProtection<span className="text-red-400">.co.nz</span></span>
+              <span className="font-bold text-white text-base">FraudInsurance<span className="text-red-400">.co.nz</span></span>
             </Link>
             <p className="text-sm leading-relaxed mb-4">
               Your guide to personal and business fraud protection insurance. Expert guides, provider comparisons, and qualified adviser referrals.
@@ -70,13 +70,13 @@ export default function Footer() {
         {/* Disclaimer */}
         <div className="border-t border-slate-800 pt-8 text-xs text-slate-500 space-y-2">
           <p>
-            FraudProtection.co.nz is an information and referral service. We are not a licensed insurer or financial adviser. Business insurance enquiries are referred to licensed insurance advisers and brokers who are regulated under New Zealand law. Personal protection information links directly to providers and official resources.
+            FraudInsurance.co.nz is an information and referral service. We are not a licensed insurer or financial adviser. Business insurance enquiries are referred to licensed insurance advisers and brokers who are regulated under New Zealand law. Personal protection information links directly to providers and official resources.
           </p>
           <p>
             The information on this website is general in nature and does not constitute financial advice. Always seek professional advice before purchasing insurance products.
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
-            <span>© 2026 FraudProtection.co.nz</span>
+            <span>© 2026 FraudInsurance.co.nz</span>
             <Link href="/privacy" className="hover:text-slate-300">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-slate-300">Terms of Use</Link>
             <Link href="/sitemap.xml" className="hover:text-slate-300">Sitemap</Link>

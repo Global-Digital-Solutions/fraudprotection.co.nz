@@ -20,4 +20,4 @@ Disallow: /
 User-agent: Omgilibot
 Disallow: /
 
-Sitemap: https://www.fraudprotection.co.nz/sitemap.xml
+Sitemap: https://www.fraudinsurance.co.nz/sitemap.xml

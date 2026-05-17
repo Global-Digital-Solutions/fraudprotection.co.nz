@@ -5,10 +5,10 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Fraud Protection Insurance NZ | Personal & Business Cover | FraudProtection.co.nz',
+  title: 'Fraud Protection Insurance NZ | Personal & Business Cover | FraudInsurance.co.nz',
   description: 'NZ\'s guide to fraud protection insurance. Personal scam & identity theft cover plus commercial crime, fidelity, and cyber insurance for businesses. Compare options and get protected today.',
-  metadataBase: new URL('https://www.fraudprotection.co.nz'),
-  alternates: { canonical: 'https://www.fraudprotection.co.nz/' },
+  metadataBase: new URL('https://www.fraudinsurance.co.nz'),
+  alternates: { canonical: 'https://www.fraudinsurance.co.nz/' },
   icons: {
     icon: [
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: 'Fraud Protection Insurance NZ | FraudProtection.co.nz',
+    title: 'Fraud Protection Insurance NZ | FraudInsurance.co.nz',
     description: 'Personal scam protection and business fraud insurance in New Zealand. $3 billion lost to fraud in NZ last year — find the right cover.',
-    url: 'https://www.fraudprotection.co.nz/',
-    siteName: 'FraudProtection.co.nz',
+    url: 'https://www.fraudinsurance.co.nz/',
+    siteName: 'FraudInsurance.co.nz',
     type: 'website',
   },
 };

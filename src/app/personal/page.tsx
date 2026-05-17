@@ -4,9 +4,9 @@ import { personalTypes } from '@/data/personalTypes';
 import { personalProviders } from '@/data/personalProviders';
 
 export const metadata: Metadata = {
-  title: 'Personal Fraud Protection NZ 2026 | Identity Theft, Scams & Card Fraud | FraudProtection.co.nz',
+  title: 'Personal Fraud Protection NZ 2026 | Identity Theft, Scams & Card Fraud | FraudInsurance.co.nz',
   description: 'Protect yourself from identity theft, card fraud, online scams, and investment fraud in New Zealand. Expert guides and direct links to banks and protection services.',
-  alternates: { canonical: 'https://www.fraudprotection.co.nz/personal/' },
+  alternates: { canonical: 'https://www.fraudinsurance.co.nz/personal/' },
 };
 
 const typeAccents: Record<string, { bg: string; border: string; badge: string; stat: string }> = {

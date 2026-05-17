@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Quote Request Received | FraudProtection.co.nz',
+  title: 'Quote Request Received | FraudInsurance.co.nz',
   description: 'Your business fraud insurance quote request has been received. A licensed adviser will contact you within one business day.',
   robots: { index: false, follow: false },
 };
@@ -172,7 +172,7 @@ export default function ThankYouPage() {
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
           </svg>
-          Back to FraudProtection.co.nz
+          Back to FraudInsurance.co.nz
         </Link>
       </section>
     </>

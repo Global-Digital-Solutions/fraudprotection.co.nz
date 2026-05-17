@@ -17,19 +17,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: type.metaTitle,
     description: type.metaDescription,
-    alternates: { canonical: `https://www.fraudprotection.co.nz/business/${type.slug}/` },
+    alternates: { canonical: `https://www.fraudinsurance.co.nz/business/${type.slug}/` },
     openGraph: {
       title: type.metaTitle,
       description: type.metaDescription,
-      url: `https://www.fraudprotection.co.nz/business/${type.slug}/`,
+      url: `https://www.fraudinsurance.co.nz/business/${type.slug}/`,
       images: [{ url: type.heroImage, width: 1600, alt: `${type.name} NZ` }],
     },
   };
 }
 
 const AUTHOR = {
-  name: 'FraudProtection.co.nz Editorial Team',
-  url: 'https://www.fraudprotection.co.nz/about/',
+  name: 'FraudInsurance.co.nz Editorial Team',
+  url: 'https://www.fraudinsurance.co.nz/about/',
 };
 
 export default function BusinessTypePage({ params }: Props) {
@@ -47,7 +47,7 @@ export default function BusinessTypePage({ params }: Props) {
     datePublished: '2026-01-01',
     dateModified: '2026-05-17',
     author: { '@type': 'Organization', name: AUTHOR.name, url: AUTHOR.url },
-    publisher: { '@type': 'Organization', name: 'FraudProtection.co.nz', url: 'https://www.fraudprotection.co.nz/' },
+    publisher: { '@type': 'Organization', name: 'FraudInsurance.co.nz', url: 'https://www.fraudinsurance.co.nz/' },
   };
 
   const faqSchema = type.faqs.length > 0 ? {

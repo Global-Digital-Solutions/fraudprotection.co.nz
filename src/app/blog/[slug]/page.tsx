@@ -15,11 +15,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.metaTitle,
     description: post.metaDescription,
-    alternates: { canonical: `https://www.fraudprotection.co.nz/blog/${post.slug}/` },
+    alternates: { canonical: `https://www.fraudinsurance.co.nz/blog/${post.slug}/` },
     openGraph: {
       title: post.metaTitle,
       description: post.metaDescription,
-      url: `https://www.fraudprotection.co.nz/blog/${post.slug}/`,
+      url: `https://www.fraudinsurance.co.nz/blog/${post.slug}/`,
       images: [{ url: post.heroImage, width: 1600, alt: post.title }],
       type: 'article',
     },
@@ -49,16 +49,16 @@ export default function BlogPostPage({ params }: Props) {
     dateModified: '2026-05-17',
     author: {
       '@type': 'Organization',
-      name: 'FraudProtection.co.nz Editorial Team',
-      url: 'https://www.fraudprotection.co.nz/about/',
+      name: 'FraudInsurance.co.nz Editorial Team',
+      url: 'https://www.fraudinsurance.co.nz/about/',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'FraudProtection.co.nz',
-      url: 'https://www.fraudprotection.co.nz/',
-      logo: { '@type': 'ImageObject', url: 'https://www.fraudprotection.co.nz/favicon-32x32.png' },
+      name: 'FraudInsurance.co.nz',
+      url: 'https://www.fraudinsurance.co.nz/',
+      logo: { '@type': 'ImageObject', url: 'https://www.fraudinsurance.co.nz/favicon-32x32.png' },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://www.fraudprotection.co.nz/blog/${post.slug}/` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://www.fraudinsurance.co.nz/blog/${post.slug}/` },
   };
 
   const paragraphs = post.content.split('\n\n');
@@ -104,7 +104,7 @@ export default function BlogPostPage({ params }: Props) {
               <div className="flex items-center gap-3 text-xs text-slate-500 border-l-2 border-red-300 pl-4 mb-8">
                 <div>
                   <span className="font-medium text-slate-700">Written by </span>
-                  <Link href="/about/" className="text-red-600 hover:underline font-medium">FraudProtection.co.nz Editorial Team</Link>
+                  <Link href="/about/" className="text-red-600 hover:underline font-medium">FraudInsurance.co.nz Editorial Team</Link>
                   <span className="mx-2">·</span>
                   <span>Updated {new Date(post.date).toLocaleDateString('en-NZ', { month: 'long', year: 'numeric' })}</span>
                 </div>

@@ -3,9 +3,9 @@ import Link from 'next/link';
 import FaqAccordion from '@/components/FaqAccordion';
 
 export const metadata: Metadata = {
-  title: 'Fraud Insurance FAQs NZ 2026 | Common Questions Answered | FraudProtection.co.nz',
+  title: 'Fraud Insurance FAQs NZ 2026 | Common Questions Answered | FraudInsurance.co.nz',
   description: 'Answers to the most common questions about fraud insurance in New Zealand — personal, business, cyber, fidelity, and commercial crime cover.',
-  alternates: { canonical: 'https://www.fraudprotection.co.nz/faq/' },
+  alternates: { canonical: 'https://www.fraudinsurance.co.nz/faq/' },
 };
 
 const faqSchema = {
@@ -44,7 +44,7 @@ const faqs = [
     heading: 'Getting a Quote',
     items: [
       { question: 'How do I get a business fraud insurance quote?', answer: 'Complete the quote form on our website and a licensed insurance adviser will contact you within one business day. We work with advisers who specialise in commercial crime, cyber, and fidelity insurance for local businesses. The referral is free and there is no obligation to purchase.' },
-      { question: 'Is FraudProtection.co.nz a licensed insurer?', answer: 'No — FraudProtection.co.nz is an information and referral service. We are not a licensed insurer or financial adviser. Business insurance enquiries are referred to licensed insurance advisers who are regulated under New Zealand law and required to act in your best interests.' },
+      { question: 'Is FraudInsurance.co.nz a licensed insurer?', answer: 'No — FraudInsurance.co.nz is an information and referral service. We are not a licensed insurer or financial adviser. Business insurance enquiries are referred to licensed insurance advisers who are regulated under New Zealand law and required to act in your best interests.' },
       { question: 'What information do I need to get a quote?', answer: 'For a preliminary quote, you\'ll typically need: business name and description, sector, number of employees, approximate annual turnover, and the type(s) of cover you\'re interested in. Your adviser will ask for more detail as the quote progresses, including information about your financial controls and existing insurance.' },
     ],
   },
