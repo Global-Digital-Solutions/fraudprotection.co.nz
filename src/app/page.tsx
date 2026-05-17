@@ -224,76 +224,91 @@ export default function HomePage() {
       </section>
 
       {/* Why protection matters */}
-      <section className="py-16 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 bg-slate-900 relative overflow-hidden">
+        {/* Subtle background texture */}
+        <div className="absolute inset-0 opacity-5" style={{ backgroundImage: 'radial-gradient(circle at 25% 25%, #ef4444 0%, transparent 50%), radial-gradient(circle at 75% 75%, #3b82f6 0%, transparent 50%)' }} />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">Why Fraud Protection Matters Now</h2>
-            <p className="text-slate-600 max-w-2xl mx-auto">The fraud epidemic is accelerating. Understanding your risk is the first step to protection.</p>
+            <div className="inline-flex items-center gap-2 bg-red-600/20 border border-red-500/30 text-red-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
+              <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" /></svg>
+              New Zealand Fraud Statistics 2025–26
+            </div>
+            <h2 className="text-3xl font-bold text-white mb-4">Why Fraud Protection Matters Now</h2>
+            <p className="text-slate-400 max-w-2xl mx-auto">The fraud epidemic is accelerating. These are the numbers behind the risk — and why protection is no longer optional.</p>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
               {
-                icon: (
-                  <svg className="w-7 h-7 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
-                  </svg>
-                ),
+                stat: '↑ 300%',
+                statColor: 'text-red-400',
+                statBg: 'bg-red-500/10 border-red-500/20',
                 title: 'AI-Powered Scams Are Getting Smarter',
-                body: 'Artificial intelligence is enabling criminals to create hyper-personalised phishing attacks, deepfake voice calls, and convincing fake investment platforms at scale. In 2025, AI-generated scam content became indistinguishable from legitimate communications.',
+                body: 'AI enables hyper-personalised phishing, deepfake voice calls, and convincing fake platforms at scale. In 2025, AI-generated scam content became indistinguishable from legitimate communications.',
+                cta: 'See personal protection →',
+                href: '/personal/online-scams',
               },
               {
-                icon: (
-                  <svg className="w-7 h-7 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
-                  </svg>
-                ),
+                stat: 'Only 36%',
+                statColor: 'text-orange-400',
+                statBg: 'bg-orange-500/10 border-orange-500/20',
                 title: 'Banks Cover Less Than You Think',
-                body: 'Only 36% of scam victims who report to their bank recover their funds. Banks reimburse unauthorised transactions, but when you were tricked into authorising a payment — as in most modern scams — they often have no legal obligation to refund you.',
+                body: 'Only 36% of scam victims who report to their bank recover funds. When you were tricked into authorising a payment — as in most modern scams — banks often have no legal obligation to refund you.',
+                cta: 'Understand the gap →',
+                href: '/personal/card-fraud',
               },
               {
-                icon: (
-                  <svg className="w-7 h-7 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z" />
-                  </svg>
-                ),
+                stat: '$150k+',
+                statColor: 'text-amber-400',
+                statBg: 'bg-amber-500/10 border-amber-500/20',
                 title: 'Business Fraud Has a Human Element',
-                body: 'The majority of business fraud is committed by employees, not external hackers. The average employee fraud runs 18 months before detection and costs $150,000+ per case. Controls reduce risk — insurance protects you when controls fail.',
+                body: 'Most business fraud is committed by employees, not hackers. The average case runs 18 months before detection and costs $150,000+. Controls reduce risk — insurance protects when they fail.',
+                cta: 'Explore fidelity cover →',
+                href: '/business/fidelity-insurance',
               },
               {
-                icon: (
-                  <svg className="w-7 h-7 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
-                  </svg>
-                ),
+                stat: 'Mandatory',
+                statColor: 'text-blue-400',
+                statBg: 'bg-blue-500/10 border-blue-500/20',
                 title: 'Privacy Act 2020 Creates New Obligations',
-                body: 'The Privacy Act 2020 requires mandatory notification of serious data breaches. For businesses, this means notification costs, legal fees, and potential fines — all covered by cyber insurance. Non-compliance penalties can exceed the cost of the insurance itself.',
+                body: 'Mandatory breach notification under the Privacy Act means businesses face notification costs, legal fees, and potential fines. Non-compliance penalties can exceed the insurance premium itself.',
+                cta: 'Learn about cyber cover →',
+                href: '/business/cyber-insurance',
               },
               {
-                icon: (
-                  <svg className="w-7 h-7 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605" />
-                  </svg>
-                ),
+                stat: '<10%',
+                statColor: 'text-green-400',
+                statBg: 'bg-green-500/10 border-green-500/20',
                 title: 'Recovery Is Harder Than Prevention',
-                body: 'Investment scam victims recover less than 10% of lost funds. Ransomware recovery costs routinely exceed $100,000. Identity theft takes 200+ hours to resolve. Spending a few hundred dollars per year on prevention and protection is far more cost-effective than recovery.',
+                body: 'Investment scam victims recover less than 10% of losses. Ransomware recovery costs routinely exceed $100k. Identity theft takes 200+ hours to resolve. Prevention costs far less.',
+                cta: 'Compare your options →',
+                href: '/business',
               },
               {
-                icon: (
-                  <svg className="w-7 h-7 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
-                  </svg>
-                ),
+                stat: '1 in 4',
+                statColor: 'text-purple-400',
+                statBg: 'bg-purple-500/10 border-purple-500/20',
                 title: 'Anyone Can Be Targeted',
-                body: '23% of adults lost money to scams last year — nearly one in four. Fraud does not discriminate by age, income, or education. Awareness and the right protections in place make the critical difference between a near-miss and a devastating loss.',
+                body: '23% of NZ adults lost money to scams last year. Fraud doesn\'t discriminate by age, income, or education. The right protections make the difference between a near-miss and a devastating loss.',
+                cta: 'Protect yourself now →',
+                href: '/personal',
               },
             ].map((card) => (
-              <div key={card.title} className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
-                <div className="w-12 h-12 bg-slate-50 rounded-xl flex items-center justify-center mb-4">
-                  {card.icon}
+              <Link
+                key={card.title}
+                href={card.href}
+                className="group flex flex-col bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 rounded-2xl p-6 transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-black/20"
+              >
+                {/* Stat badge */}
+                <div className={`inline-flex items-center self-start border rounded-lg px-3 py-1.5 mb-4 ${card.statBg}`}>
+                  <span className={`text-xl font-black leading-none ${card.statColor}`}>{card.stat}</span>
                 </div>
-                <h3 className="font-bold text-slate-900 mb-2">{card.title}</h3>
-                <p className="text-sm text-slate-600 leading-relaxed">{card.body}</p>
-              </div>
+                <h3 className="font-bold text-white mb-2 group-hover:text-red-300 transition-colors leading-snug">{card.title}</h3>
+                <p className="text-sm text-slate-400 leading-relaxed flex-1">{card.body}</p>
+                <div className={`mt-4 text-xs font-semibold flex items-center gap-1 ${card.statColor} group-hover:gap-2 transition-all`}>
+                  {card.cta}
+                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
