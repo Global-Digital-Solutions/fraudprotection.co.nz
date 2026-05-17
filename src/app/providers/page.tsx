@@ -55,7 +55,7 @@ export default function ProvidersPage() {
               </div>
               <div className="flex items-center gap-2 bg-white/10 rounded-lg px-4 py-2">
                 <span className="w-2 h-2 rounded-full bg-blue-400" />
-                <span className="text-sm text-slate-200">3 specialist brokers</span>
+                <span className="text-sm text-slate-200">4 specialist brokers</span>
               </div>
               <div className="flex items-center gap-2 bg-white/10 rounded-lg px-4 py-2">
                 <span className="w-2 h-2 rounded-full bg-green-400" />
@@ -121,20 +121,12 @@ export default function ProvidersPage() {
                     </div>
                   </div>
 
-                  <div className="mt-auto flex gap-2">
-                    <a
-                      href={p.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex-1 text-center text-xs border-2 border-slate-200 hover:border-slate-400 text-slate-600 hover:text-slate-900 font-medium py-2.5 rounded-xl transition-colors"
-                    >
-                      Visit {p.name} ↗
-                    </a>
+                  <div className="mt-auto">
                     <Link
                       href="/quote"
-                      className="flex-1 text-center text-xs bg-red-600 hover:bg-red-700 text-white font-bold py-2.5 rounded-xl transition-colors"
+                      className="block w-full text-center text-sm bg-red-600 hover:bg-red-700 text-white font-bold py-3 rounded-xl transition-colors"
                     >
-                      Get Quote →
+                      Get a Quote →
                     </Link>
                   </div>
                 </div>
@@ -166,17 +158,9 @@ export default function ProvidersPage() {
                         <span key={ct} className="text-xs bg-red-50 text-red-700 px-2 py-0.5 rounded-full">{ct}</span>
                       ))}
                     </div>
-                    <div className="mt-auto flex gap-2">
-                      <a
-                        href={p.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 text-center text-xs border border-slate-300 hover:border-slate-500 text-slate-600 hover:text-slate-900 py-2 rounded-lg transition-colors"
-                      >
-                        Visit website ↗
-                      </a>
-                      <Link href="/quote" className="flex-1 text-center text-xs bg-red-600 hover:bg-red-700 text-white font-bold py-2 rounded-lg transition-colors">
-                        Get Quote →
+                    <div className="mt-auto">
+                      <Link href="/quote" className="block w-full text-center text-sm bg-red-600 hover:bg-red-700 text-white font-bold py-2.5 rounded-xl transition-colors">
+                        Get a Quote →
                       </Link>
                     </div>
                   </div>
@@ -225,17 +209,9 @@ export default function ProvidersPage() {
                       ))}
                     </div>
                   </div>
-                  <div className="mt-auto flex gap-2">
-                    <a
-                      href={p.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex-1 text-center text-xs border border-slate-300 hover:border-slate-500 text-slate-600 hover:text-slate-900 py-2 rounded-lg transition-colors"
-                    >
-                      Visit website ↗
-                    </a>
-                    <Link href="/quote" className="flex-1 text-center text-xs bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 rounded-lg transition-colors">
-                      Get Quote →
+                  <div className="mt-auto">
+                    <Link href="/quote" className="block w-full text-center text-sm bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 rounded-xl transition-colors">
+                      Get a Quote →
                     </Link>
                   </div>
                 </div>
