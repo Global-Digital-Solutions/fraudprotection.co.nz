@@ -167,17 +167,14 @@ export default function PersonalPage() {
             <div className="space-y-4">
               <p className="text-sm font-semibold text-slate-400 uppercase tracking-wide mb-5">What we're aiming to cover:</p>
               {[
-                { icon: '💸', title: 'Scam & Payment Fraud Loss', desc: 'Reimbursement for losses where you were deceived into authorising a payment — the biggest gap in current protection.' },
-                { icon: '🪪', title: 'Identity Recovery Costs', desc: 'Legal fees, lost earnings, and out-of-pocket costs to restore your identity after theft or misuse.' },
-                { icon: '📞', title: 'Expert Recovery Support', desc: 'Dedicated case managers to help you navigate reporting, bank disputes, and credit bureau corrections.' },
-                { icon: '🔐', title: 'Cyber & Account Protection', desc: 'Cover for account takeover losses and unauthorised access to banking or investment accounts.' },
+                { title: 'Scam & Payment Fraud Loss', desc: 'Reimbursement for losses where you were deceived into authorising a payment — the biggest gap in current protection.' },
+                { title: 'Identity Recovery Costs', desc: 'Legal fees, lost earnings, and out-of-pocket costs to restore your identity after theft or misuse.' },
+                { title: 'Expert Recovery Support', desc: 'Dedicated case managers to help you navigate reporting, bank disputes, and credit bureau corrections.' },
+                { title: 'Cyber & Account Protection', desc: 'Cover for account takeover losses and unauthorised access to banking or investment accounts.' },
               ].map((item) => (
-                <div key={item.title} className="flex gap-4 bg-white/5 border border-white/10 rounded-xl p-4">
-                  <span className="text-2xl flex-shrink-0">{item.icon}</span>
-                  <div>
-                    <div className="text-sm font-semibold text-white mb-0.5">{item.title}</div>
-                    <div className="text-xs text-slate-400 leading-relaxed">{item.desc}</div>
-                  </div>
+                <div key={item.title} className="bg-white/5 border border-white/10 rounded-xl p-4">
+                  <div className="text-sm font-semibold text-white mb-0.5">{item.title}</div>
+                  <div className="text-xs text-slate-400 leading-relaxed">{item.desc}</div>
                 </div>
               ))}
               <p className="text-xs text-slate-500 pt-2">This product is in development and not yet available for purchase. No obligation applies to expressions of interest.</p>
