@@ -146,7 +146,7 @@ export default function HomePage() {
                 </p>
                 <div className="inline-flex items-center gap-1.5 bg-slate-700/50 text-slate-200 text-xs px-3 py-1.5 rounded-full">
                   <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
-                  Links directly to providers — no middleman
+                  Direct insurers
                 </div>
               </div>
               <div className="p-6 space-y-2">
@@ -191,7 +191,7 @@ export default function HomePage() {
                 </p>
                 <div className="inline-flex items-center gap-1.5 bg-red-600/50 text-red-100 text-xs px-3 py-1.5 rounded-full">
                   <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-                  Form submissions go to licensed advisers
+                  Our trusted brokers find the best deal for you
                 </div>
               </div>
               <div className="p-6 space-y-2">
