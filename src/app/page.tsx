@@ -144,10 +144,13 @@ export default function HomePage() {
                 <p className="text-slate-300 text-sm leading-relaxed mb-4">
                   Understand your options for personal fraud protection — from your bank's fraud guarantees to emerging cyber cover. Direct links to providers and free support services.
                 </p>
-                <div className="inline-flex items-center gap-1.5 bg-slate-700/50 text-slate-200 text-xs px-3 py-1.5 rounded-full">
-                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
-                  Direct insurers
-                </div>
+                <Link
+                  href="/personal"
+                  className="inline-flex items-center gap-2 bg-white text-slate-900 hover:bg-slate-100 font-semibold text-sm px-5 py-2.5 rounded-xl transition-colors shadow-sm"
+                >
+                  Explore personal cover
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
+                </Link>
               </div>
               <div className="p-6 space-y-2">
                 {personalPathways.map((p) => (
