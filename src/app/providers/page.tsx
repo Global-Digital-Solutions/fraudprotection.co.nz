@@ -75,7 +75,7 @@ export default function ProvidersPage() {
             <p className="text-slate-500 text-sm mt-1">Brokers with specific expertise in fidelity, commercial crime, and cyber insurance for businesses.</p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {brokers.map((p) => (
               <div key={p.id} className="flex flex-col border-2 border-blue-100 hover:border-blue-300 rounded-2xl overflow-hidden transition-all hover:shadow-md group">
                 <div className="bg-gradient-to-br from-slate-700 to-slate-800 px-6 pt-5 pb-4">
@@ -84,9 +84,11 @@ export default function ProvidersPage() {
                       <span className="text-xs font-semibold text-blue-300 uppercase tracking-wider">Broker</span>
                       <h3 className="text-base font-bold text-white mt-0.5">{p.name}</h3>
                     </div>
-                    <span className={`text-xs px-2.5 py-1 rounded-full font-medium shrink-0 ml-2 ${accessColors[p.accessMethod]}`}>
-                      {accessLabels[p.accessMethod]}
-                    </span>
+                    {p.featured && (
+                      <span className="text-xs px-2.5 py-1 rounded-full font-semibold shrink-0 ml-2 bg-amber-400 text-slate-900">
+                        Featured
+                      </span>
+                    )}
                   </div>
                   <p className="text-slate-400 text-xs italic">{p.tagline}</p>
                 </div>

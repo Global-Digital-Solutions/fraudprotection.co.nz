@@ -133,5 +133,6 @@ export const businessProviders: BusinessProvider[] = [
     products: ['Commercial Crime Insurance', 'Fidelity Insurance', 'Cyber Liability', 'Business Insurance', 'Management Liability'],
     coverTypes: ['Commercial Crime', 'Employee Dishonesty', 'Cyber Liability', 'Business Interruption', 'Management Liability'],
     url: 'https://www.marbleinsurance.co.nz/',
+    featured: true,
   },
 ];
