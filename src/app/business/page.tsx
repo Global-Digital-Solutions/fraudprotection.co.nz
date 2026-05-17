@@ -14,8 +14,13 @@ export default function BusinessPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-red-900 via-red-800 to-slate-900 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-slate-900 text-white overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-red-950 via-slate-900 to-slate-900 opacity-95" />
+        <div
+          className="absolute inset-0 opacity-8 bg-cover bg-center"
+          style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1600&q=80)' }}
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <nav className="flex flex-wrap items-center gap-1 text-sm text-red-200 mb-6">
             <Link href="/" className="hover:text-white">Home</Link>
             <span className="mx-1">/</span>
@@ -69,7 +74,6 @@ export default function BusinessPage() {
                 href={`/business/${type.slug}`}
                 className="group border-2 border-slate-200 hover:border-red-300 rounded-2xl p-6 transition-all hover:shadow-md"
               >
-                <div className="text-3xl mb-3">{type.icon}</div>
                 <h3 className="font-bold text-slate-900 group-hover:text-red-700 mb-2 transition-colors">{type.name}</h3>
                 <p className="text-xs text-slate-500 mb-4 line-clamp-2">{type.tagline}</p>
                 <div className="flex flex-wrap gap-1.5 mb-4">
@@ -103,7 +107,6 @@ export default function BusinessPage() {
                 href={`/sectors/${sector.slug}`}
                 className="group flex items-center gap-3 bg-white border border-slate-200 hover:border-red-200 rounded-xl p-4 transition-all hover:shadow-sm"
               >
-                <span className="text-2xl">{sector.icon}</span>
                 <div>
                   <div className="font-semibold text-slate-900 group-hover:text-red-700 text-sm transition-colors">{sector.name}</div>
                   <div className="text-xs text-slate-500">{sector.tagline.split('—')[0]}</div>

@@ -10,8 +10,13 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white py-14">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-slate-900 text-white overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 opacity-95" />
+        <div
+          className="absolute inset-0 opacity-10 bg-cover bg-center"
+          style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1600&q=80)' }}
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
           <h1 className="text-3xl sm:text-4xl font-bold mb-4">About FraudProtection.co.nz</h1>
           <p className="text-slate-300 text-lg max-w-2xl">Your independent guide to personal and business fraud protection insurance.</p>
         </div>
@@ -29,7 +34,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-xl font-bold text-slate-900 mb-3">What We Do</h2>
             <p className="text-slate-700 text-sm leading-relaxed mb-4">
-              New Zealand lost $3 billion to fraud in 2025 — but many people don't know what protection exists or where to find it. FraudProtection.co.nz was created to close that knowledge gap.
+              $3 billion was lost to fraud last year — but many people don't know what protection exists or where to find it. FraudProtection.co.nz was created to close that knowledge gap.
             </p>
             <p className="text-slate-700 text-sm leading-relaxed">
               For <strong>personal fraud protection</strong>, we provide guides to understanding your bank's fraud guarantee, what to do if you're targeted, and how to find free support services like Netsafe and IDCARE.

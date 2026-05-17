@@ -11,8 +11,13 @@ export const metadata: Metadata = {
 export default function SectorsPage() {
   return (
     <>
-      <section className="bg-gradient-to-br from-slate-900 to-red-950 text-white py-14">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-slate-900 text-white overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-red-950 via-slate-900 to-slate-900 opacity-95" />
+        <div
+          className="absolute inset-0 opacity-10 bg-cover bg-center"
+          style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&q=80)' }}
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
           <nav className="flex flex-wrap items-center gap-1 text-sm text-slate-400 mb-6">
             <Link href="/" className="hover:text-white">Home</Link>
             <span className="mx-1">/</span>
@@ -34,7 +39,6 @@ export default function SectorsPage() {
                 href={`/sectors/${sector.slug}`}
                 className="group border-2 border-slate-200 hover:border-red-300 rounded-2xl p-6 transition-all hover:shadow-md"
               >
-                <div className="text-3xl mb-3">{sector.icon}</div>
                 <h2 className="font-bold text-slate-900 group-hover:text-red-700 mb-2 transition-colors">{sector.name}</h2>
                 <p className="text-xs text-slate-500 mb-4 line-clamp-2">{sector.tagline}</p>
                 <div className="flex flex-wrap gap-1 mb-4">

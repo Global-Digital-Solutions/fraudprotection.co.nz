@@ -55,8 +55,13 @@ export default function FaqPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white py-14">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative bg-slate-900 text-white overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 opacity-95" />
+        <div
+          className="absolute inset-0 opacity-10 bg-cover bg-center"
+          style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=1600&q=80)' }}
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 text-center">
           <h1 className="text-3xl sm:text-4xl font-bold mb-4">Frequently Asked Questions</h1>
           <p className="text-slate-300 text-lg max-w-2xl mx-auto">Answers to the most common questions about fraud protection and insurance.</p>
         </div>

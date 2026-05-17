@@ -21,8 +21,13 @@ export default function PersonalPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-slate-900 text-white overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 opacity-95" />
+        <div
+          className="absolute inset-0 opacity-10 bg-cover bg-center"
+          style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1600&q=80)' }}
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <nav className="flex flex-wrap items-center gap-1 text-sm text-slate-400 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="mx-1">/</span>
@@ -66,13 +71,12 @@ export default function PersonalPage() {
                 >
                   {/* Coloured header band */}
                   <div className={`bg-gradient-to-r ${accent.bg} px-6 pt-5 pb-4`}>
-                    <div className="flex items-center justify-between">
-                      <span className="text-4xl">{type.icon}</span>
-                      <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${accent.badge} bg-white/20 text-white`}>
+                    <div className="flex items-center justify-between mb-3">
+                      <h3 className="text-lg font-bold text-white leading-tight">{type.name}</h3>
+                      <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-white/20 text-white">
                         Guide →
                       </span>
                     </div>
-                    <h3 className="text-lg font-bold text-white mt-3 leading-tight">{type.name}</h3>
                   </div>
 
                   {/* Card body */}
@@ -107,13 +111,12 @@ export default function PersonalPage() {
             {/* "Coming Soon" card to fill the 6th slot */}
             <div className="flex flex-col rounded-2xl overflow-hidden border-2 border-dashed border-slate-200 bg-slate-50">
               <div className="bg-gradient-to-r from-slate-300 to-slate-400 px-6 pt-5 pb-4">
-                <div className="flex items-center justify-between">
-                  <span className="text-4xl">🛡️</span>
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-lg font-bold text-white leading-tight">Personal Fraud Insurance</h3>
                   <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-white/30 text-white">
                     Coming Soon
                   </span>
                 </div>
-                <h3 className="text-lg font-bold text-white mt-3 leading-tight">Personal Fraud Insurance</h3>
               </div>
               <div className="flex flex-col flex-1 p-6">
                 <p className="text-sm text-slate-500 mb-4 leading-relaxed">We're working to bring a dedicated fraud insurance product to individuals — direct cover for scam losses and identity recovery.</p>

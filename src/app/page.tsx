@@ -5,7 +5,7 @@ import { businessProviders } from '@/data/businessProviders';
 
 export const metadata: Metadata = {
   title: 'Fraud Protection Insurance NZ 2026 | Personal & Business Cover | FraudProtection.co.nz',
-  description: 'New Zealand lost $3 billion to fraud in 2025. Protect yourself and your business — personal scam protection and commercial crime, fidelity & cyber insurance from NZ\'s leading providers.',
+  description: '$3 billion lost to fraud last year. Protect yourself and your business — personal scam protection and commercial crime, fidelity & cyber insurance from leading local providers.',
   alternates: { canonical: 'https://www.fraudprotection.co.nz/' },
 };
 
