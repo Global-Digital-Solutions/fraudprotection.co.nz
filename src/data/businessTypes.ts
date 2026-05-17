@@ -26,7 +26,7 @@ export const businessTypes: BusinessFraudType[] = [
     tagline: 'Comprehensive cover for both internal and external criminal acts affecting your business.',
     description: 'Commercial crime insurance protects businesses from financial losses arising from criminal acts — both from within (employees) and outside (third parties). Purpose-built products like Chubb\'s FraudProtector cover employee dishonesty, computer fraud, forgery, counterfeit currency, and external theft, with options to include client asset protection and defence costs.',
     details: 'Commercial crime is the broadest form of fraud cover for businesses, designed to address the full spectrum of criminal exposures. It is particularly important for businesses that handle significant cash flows, maintain client assets, or employ staff with financial access. Policy limits typically range from $100,000 to multi-million dollar limits for larger corporates.',
-    heroImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80',
     metaTitle: 'Commercial Crime Insurance NZ 2026 | Chubb FraudProtector & More | FraudInsurance.co.nz',
     metaDescription: 'Commercial crime insurance protects NZ businesses from employee fraud, forgery, computer crime, and external theft. Compare providers and get a quote today.',
     keyRisks: [
