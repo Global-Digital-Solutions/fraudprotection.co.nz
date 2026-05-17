@@ -66,6 +66,64 @@ export default function ProvidersPage() {
         </div>
       </section>
 
+      {/* Brokers */}
+      <section className="py-14 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-8">
+            <span className="text-xs font-semibold uppercase tracking-widest text-blue-600 mb-2 block">Expert Placement</span>
+            <h2 className="text-2xl font-bold text-slate-900">Specialist Brokers</h2>
+            <p className="text-slate-500 text-sm mt-1">Brokers with specific expertise in fidelity, commercial crime, and cyber insurance for businesses.</p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {brokers.map((p) => (
+              <div key={p.id} className="flex flex-col border-2 border-blue-100 hover:border-blue-300 rounded-2xl overflow-hidden transition-all hover:shadow-md group">
+                <div className="bg-gradient-to-br from-slate-700 to-slate-800 px-6 pt-5 pb-4">
+                  <div className="flex items-start justify-between mb-2">
+                    <div>
+                      <span className="text-xs font-semibold text-blue-300 uppercase tracking-wider">Broker</span>
+                      <h3 className="text-base font-bold text-white mt-0.5">{p.name}</h3>
+                    </div>
+                    <span className={`text-xs px-2.5 py-1 rounded-full font-medium shrink-0 ml-2 ${accessColors[p.accessMethod]}`}>
+                      {accessLabels[p.accessMethod]}
+                    </span>
+                  </div>
+                  <p className="text-slate-400 text-xs italic">{p.tagline}</p>
+                </div>
+                {/* Key feature strip */}
+                <div className="bg-blue-600 px-6 py-2.5">
+                  <p className="text-white text-xs font-semibold leading-snug">{p.highlight}</p>
+                </div>
+                <div className="flex flex-col flex-1 px-6 py-5 bg-white">
+                  <p className="text-sm text-slate-600 leading-relaxed mb-4">{p.description}</p>
+                  <div className="mb-4">
+                    <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Expertise</p>
+                    <div className="flex flex-wrap gap-1">
+                      {p.coverTypes.map((ct) => (
+                        <span key={ct} className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">{ct}</span>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="mt-auto">
+                    <Link href="/quote" className="block w-full text-center text-sm bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 rounded-xl transition-colors">
+                      Get a Quote →
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Access method legend */}
+          <div className="mt-8 flex flex-wrap items-center gap-4 text-xs text-slate-500">
+            <span className="font-semibold text-slate-600">Access method key:</span>
+            <span className="flex items-center gap-1.5 bg-amber-50 border border-amber-200 text-amber-700 px-3 py-1.5 rounded-full">Via broker only — must go through a licensed broker</span>
+            <span className="flex items-center gap-1.5 bg-blue-50 border border-blue-200 text-blue-700 px-3 py-1.5 rounded-full">Broker recommended — can access direct but broker advised</span>
+            <span className="flex items-center gap-1.5 bg-green-50 border border-green-200 text-green-700 px-3 py-1.5 rounded-full">Direct & broker — available direct or via broker</span>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Insurers */}
       <section className="py-14 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -168,64 +226,6 @@ export default function ProvidersPage() {
               ))}
             </div>
           )}
-        </div>
-      </section>
-
-      {/* Brokers */}
-      <section className="py-14 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-8">
-            <span className="text-xs font-semibold uppercase tracking-widest text-blue-600 mb-2 block">Expert Placement</span>
-            <h2 className="text-2xl font-bold text-slate-900">Specialist Brokers</h2>
-            <p className="text-slate-500 text-sm mt-1">Brokers with specific expertise in fidelity, commercial crime, and cyber insurance for businesses.</p>
-          </div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {brokers.map((p) => (
-              <div key={p.id} className="flex flex-col border-2 border-blue-100 hover:border-blue-300 rounded-2xl overflow-hidden transition-all hover:shadow-md group">
-                <div className="bg-gradient-to-br from-slate-700 to-slate-800 px-6 pt-5 pb-4">
-                  <div className="flex items-start justify-between mb-2">
-                    <div>
-                      <span className="text-xs font-semibold text-blue-300 uppercase tracking-wider">Broker</span>
-                      <h3 className="text-base font-bold text-white mt-0.5">{p.name}</h3>
-                    </div>
-                    <span className={`text-xs px-2.5 py-1 rounded-full font-medium shrink-0 ml-2 ${accessColors[p.accessMethod]}`}>
-                      {accessLabels[p.accessMethod]}
-                    </span>
-                  </div>
-                  <p className="text-slate-400 text-xs italic">{p.tagline}</p>
-                </div>
-                {/* Key feature strip */}
-                <div className="bg-blue-600 px-6 py-2.5">
-                  <p className="text-white text-xs font-semibold leading-snug">{p.highlight}</p>
-                </div>
-                <div className="flex flex-col flex-1 px-6 py-5 bg-white">
-                  <p className="text-sm text-slate-600 leading-relaxed mb-4">{p.description}</p>
-                  <div className="mb-4">
-                    <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Expertise</p>
-                    <div className="flex flex-wrap gap-1">
-                      {p.coverTypes.map((ct) => (
-                        <span key={ct} className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">{ct}</span>
-                      ))}
-                    </div>
-                  </div>
-                  <div className="mt-auto">
-                    <Link href="/quote" className="block w-full text-center text-sm bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 rounded-xl transition-colors">
-                      Get a Quote →
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* Access method legend */}
-          <div className="mt-8 flex flex-wrap items-center gap-4 text-xs text-slate-500">
-            <span className="font-semibold text-slate-600">Access method key:</span>
-            <span className="flex items-center gap-1.5 bg-amber-50 border border-amber-200 text-amber-700 px-3 py-1.5 rounded-full">Via broker only — must go through a licensed broker</span>
-            <span className="flex items-center gap-1.5 bg-blue-50 border border-blue-200 text-blue-700 px-3 py-1.5 rounded-full">Broker recommended — can access direct but broker advised</span>
-            <span className="flex items-center gap-1.5 bg-green-50 border border-green-200 text-green-700 px-3 py-1.5 rounded-full">Direct & broker — available direct or via broker</span>
-          </div>
         </div>
       </section>
 
