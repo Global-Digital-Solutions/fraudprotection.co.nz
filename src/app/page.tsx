@@ -10,10 +10,10 @@ export const metadata: Metadata = {
 };
 
 const stats = [
-  { value: '$3 billion', label: 'Lost to fraud in NZ in 2025', color: 'text-red-400' },
-  { value: '30%', label: 'Year-on-year increase in scam losses', color: 'text-orange-400' },
-  { value: '82%', label: 'NZ adults targeted every week', color: 'text-amber-400' },
-  { value: '36%', label: 'Recovery rate after reporting to bank', color: 'text-slate-300' },
+  { value: '$3 billion', label: 'Lost to fraud last year', color: 'text-red-400' },
+  { value: '30%', label: 'Year-on-year increase — and still climbing', color: 'text-orange-400' },
+  { value: '82%', label: 'Of us are targeted by scammers every week', color: 'text-amber-400' },
+  { value: '36%', label: 'Recovery rate after reporting to your bank', color: 'text-slate-300' },
 ];
 
 const personalPathways = [
@@ -71,14 +71,14 @@ export default function HomePage() {
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
               </svg>
-              NZ Lost $3 Billion to Fraud in 2025 — 30% More Than Last Year
+              $3 Billion Lost to Fraud Last Year — Up 30% on the Year Before
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Fraud Protection<br />
-              <span className="text-red-400">for New Zealand</span>
+              Don&apos;t Become<br />
+              <span className="text-red-400">a Fraud Statistic</span>
             </h1>
             <p className="text-slate-300 text-lg sm:text-xl max-w-2xl mx-auto mb-10">
-              Whether you're protecting your personal finances or your business, New Zealand has options. Find the right cover — and know exactly where to turn if fraud hits.
+              Fraud is the fastest-growing crime in the country — hitting families, sole traders, and businesses that never saw it coming. Whether you need personal protection or commercial cover, we&apos;ll show you what&apos;s available and who to call when it matters most.
             </p>
             {/* Dual pathway CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
