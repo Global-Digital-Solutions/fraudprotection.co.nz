@@ -17,7 +17,7 @@ export default function BusinessPage() {
       <section className="relative bg-slate-900 text-white overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-red-950 via-slate-900 to-slate-900 opacity-95" />
         <div
-          className="absolute inset-0 opacity-8 bg-cover bg-center"
+          className="absolute inset-0 opacity-10 bg-cover bg-center"
           style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1600&q=80)' }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
