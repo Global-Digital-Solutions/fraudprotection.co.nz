@@ -168,8 +168,8 @@ export default function HomePage() {
                   </Link>
                 ))}
                 <div className="pt-3 border-t border-slate-100">
-                  <Link href="/personal" className="flex items-center justify-center gap-2 text-sm text-slate-600 hover:text-slate-900 font-medium">
-                    View all personal protection options →
+                  <Link href="/personal" className="flex items-center justify-center gap-2 w-full bg-slate-800 hover:bg-slate-900 text-white text-sm font-semibold py-2.5 rounded-xl transition-colors">
+                    View All Personal Protection Options →
                   </Link>
                 </div>
               </div>
