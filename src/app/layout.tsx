@@ -8,6 +8,19 @@ export const metadata: Metadata = {
   description: 'NZ\'s guide to fraud protection insurance. Personal scam & identity theft cover plus commercial crime, fidelity, and cyber insurance for businesses. Compare options and get protected today.',
   metadataBase: new URL('https://www.fraudprotection.co.nz'),
   alternates: { canonical: 'https://www.fraudprotection.co.nz/' },
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
+    other: [
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+    ],
+  },
   openGraph: {
     title: 'Fraud Protection Insurance NZ | FraudProtection.co.nz',
     description: 'Personal scam protection and business fraud insurance in New Zealand. $3 billion lost to fraud in NZ last year — find the right cover.',
