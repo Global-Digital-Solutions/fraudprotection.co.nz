@@ -68,18 +68,20 @@ export default function Footer() {
         </div>
 
         {/* Disclaimer */}
-        <div className="border-t border-slate-800 pt-8 text-xs text-slate-500 space-y-2">
+        <div className="border-t border-slate-800 pt-8 text-xs text-slate-500 space-y-3">
+          <p className="font-medium text-slate-400">Important Disclaimer</p>
           <p>
-            FraudInsurance.co.nz is an information and referral service. We are not a licensed insurer or financial adviser. Business insurance enquiries are referred to licensed insurance advisers and brokers who are regulated under New Zealand law. Personal protection information links directly to providers and official resources.
+            FraudInsurance.co.nz is an information and referral service only. We are <strong className="text-slate-400">not</strong> a licensed insurer, insurance intermediary, or financial adviser under the Financial Markets Conduct Act 2013. Business insurance enquiries submitted through this website are referred to licensed insurance advisers and brokers who are independently regulated under New Zealand law. Personal fraud protection information links directly to banks, government agencies, and support organisations — we have no commercial relationship with those entities.
           </p>
           <p>
-            The information on this website is general in nature and does not constitute financial advice. Always seek professional advice before purchasing insurance products.
+            The information on this website is general in nature and does not constitute regulated financial advice. It has not been prepared taking into account your individual financial situation, objectives, or insurance needs. Always seek advice from a licensed financial adviser before purchasing any insurance product.
           </p>
-          <div className="flex flex-wrap gap-4 pt-2">
+          <div className="flex flex-wrap gap-x-5 gap-y-2 pt-2 border-t border-slate-800 mt-4">
             <span>© 2026 FraudInsurance.co.nz</span>
-            <Link href="/privacy" className="hover:text-slate-300">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-slate-300">Terms of Use</Link>
-            <Link href="/sitemap.xml" className="hover:text-slate-300">Sitemap</Link>
+            <Link href="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-slate-300 transition-colors">Terms of Use</Link>
+            <Link href="/disclaimer" className="hover:text-slate-300 transition-colors">Disclaimer</Link>
+            <Link href="/sitemap.xml" className="hover:text-slate-300 transition-colors">Sitemap</Link>
           </div>
         </div>
       </div>
