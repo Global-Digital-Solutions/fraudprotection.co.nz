@@ -232,33 +232,84 @@ export default function ProvidersPage() {
       </section>
 
       {/* Personal providers */}
-      <section className="py-14 bg-white">
+      <section className="py-14 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-8">
-            <span className="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-2 block">For Individuals</span>
-            <h2 className="text-2xl font-bold text-slate-900">Personal Protection Resources</h2>
-            <p className="text-slate-500 text-sm mt-1">Banks, insurers, and free support services for personal fraud protection.</p>
+          <div className="flex flex-wrap items-end justify-between gap-4 mb-8">
+            <div>
+              <span className="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-2 block">For Individuals</span>
+              <h2 className="text-2xl font-bold text-slate-900">Personal Protection Resources</h2>
+              <p className="text-slate-500 text-sm mt-1">Banks, insurers, and free support services available to you right now.</p>
+            </div>
+            <Link href="/personal" className="text-sm text-red-600 hover:text-red-700 font-medium">Personal fraud guides →</Link>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {personalProviders.map((p) => (
-              <div key={p.id} className="bg-white border border-slate-200 hover:border-slate-300 rounded-2xl p-5 transition-all hover:shadow-sm">
-                <div className="flex items-start justify-between mb-2">
-                  <h3 className="font-bold text-slate-900">{p.name}</h3>
-                  <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
-                    p.type === 'bank' ? 'bg-blue-100 text-blue-700' :
-                    p.type === 'insurer' ? 'bg-red-100 text-red-700' :
-                    'bg-green-100 text-green-700'
-                  }`}>
-                    {p.type === 'bank' ? 'Bank' : p.type === 'insurer' ? 'Insurer' : 'Support Service'}
-                  </span>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {personalProviders.map((p) => {
+              const isBank = p.type === 'bank';
+              const isInsurer = p.type === 'insurer';
+              const headerGradient = isBank
+                ? 'from-blue-800 to-blue-900'
+                : isInsurer
+                ? 'from-red-800 to-red-900'
+                : 'from-emerald-800 to-emerald-900';
+              const accentLabel = isBank ? 'Bank' : isInsurer ? 'Insurer' : 'Support Service';
+              const accentLabelClass = isBank
+                ? 'text-blue-300'
+                : isInsurer
+                ? 'text-red-300'
+                : 'text-emerald-300';
+              const tagClass = isBank
+                ? 'bg-blue-50 text-blue-700'
+                : isInsurer
+                ? 'bg-red-50 text-red-700'
+                : 'bg-emerald-50 text-emerald-700';
+              const btnClass = isBank
+                ? 'bg-blue-700 hover:bg-blue-800'
+                : isInsurer
+                ? 'bg-red-600 hover:bg-red-700'
+                : 'bg-emerald-700 hover:bg-emerald-800';
+              const stripClass = isBank
+                ? 'bg-blue-600'
+                : isInsurer
+                ? 'bg-red-600'
+                : 'bg-emerald-600';
+              return (
+                <div key={p.id} className="flex flex-col border-2 border-slate-200 hover:border-slate-300 rounded-2xl overflow-hidden transition-all hover:shadow-lg group">
+                  {/* Header */}
+                  <div className={`bg-gradient-to-br ${headerGradient} px-6 pt-5 pb-4`}>
+                    <div className="flex items-start justify-between mb-2">
+                      <div>
+                        <span className={`text-xs font-semibold uppercase tracking-wider ${accentLabelClass}`}>{accentLabel}</span>
+                        <h3 className="text-base font-bold text-white mt-0.5">{p.name}</h3>
+                      </div>
+                    </div>
+                    <p className="text-slate-300 text-xs italic">{p.tagline}</p>
+                  </div>
+                  {/* Colour strip */}
+                  <div className={`${stripClass} px-6 py-2`}>
+                    <p className="text-white text-xs font-semibold">{p.coverTypes[0]} · {p.coverTypes[1]}</p>
+                  </div>
+                  {/* Body */}
+                  <div className="flex flex-col flex-1 px-6 py-5 bg-white">
+                    <p className="text-sm text-slate-600 leading-relaxed mb-4">{p.description}</p>
+                    <div className="flex flex-wrap gap-1 mb-5">
+                      {p.coverTypes.map((ct) => (
+                        <span key={ct} className={`text-xs px-2 py-0.5 rounded-full ${tagClass}`}>{ct}</span>
+                      ))}
+                    </div>
+                    <div className="mt-auto">
+                      <a
+                        href={p.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`block w-full text-center text-sm ${btnClass} text-white font-bold py-2.5 rounded-xl transition-colors`}
+                      >
+                        Visit {p.name} →
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <p className="text-xs text-slate-500 italic mb-2">{p.tagline}</p>
-                <p className="text-sm text-slate-600 mb-4 leading-relaxed">{p.description}</p>
-                <a href={p.url} target="_blank" rel="noopener noreferrer" className="block w-full text-center text-sm bg-slate-900 hover:bg-slate-700 text-white font-semibold py-2 rounded-lg transition-colors">
-                  Visit {p.name} →
-                </a>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
