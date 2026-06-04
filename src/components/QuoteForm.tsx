@@ -1,7 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import TurnstileWidget, { type TurnstileHandle } from './TurnstileWidget';
 
 const coverageOptions = [
   { id: 'commercial-crime', label: 'Commercial Crime', desc: 'Internal & external criminal acts' },
@@ -14,7 +15,9 @@ const coverageOptions = [
 
 export default function QuoteForm() {
   const router = useRouter();
+  const turnstileRef = useRef<TurnstileHandle>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState('');
   const [selectedCover, setSelectedCover] = useState<string[]>([]);
 
   function toggleCover(id: string) {
@@ -26,39 +29,51 @@ export default function QuoteForm() {
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setIsSubmitting(true);
+    setError('');
 
-    const form = e.currentTarget;
-    const fd = new FormData(form);
-
-    const payload: Record<string, string> = {
-      _subject: 'New Business Fraud Insurance Quote — FraudInsurance.co.nz',
-      _to: 'hello@cover4you.co.nz',
-      _cc: 'butlerdarin@gmail.com',
-      firstName: fd.get('firstName') as string,
-      lastName: fd.get('lastName') as string,
-      email: fd.get('email') as string,
-      phone: fd.get('phone') as string,
-      businessName: fd.get('businessName') as string,
-      sector: fd.get('sector') as string,
-      turnover: fd.get('turnover') as string,
-      employees: fd.get('employees') as string,
-      contactPreference: fd.get('contactPreference') as string,
-      coverageTypes: selectedCover.join(', ') || 'None selected',
-      message: fd.get('message') as string,
-    };
+    const fd = new FormData(e.currentTarget);
 
     try {
-      await fetch('https://worker.cover4you.co.nz/submit', {
+      const cfToken = await turnstileRef.current?.execute();
+      if (!cfToken) {
+        setError('Security check could not complete. Please try again.');
+        setIsSubmitting(false);
+        return;
+      }
+
+      const payload: Record<string, string> = {
+        _subject: 'New Business Fraud Insurance Quote — FraudProtection.co.nz',
+        firstName: (fd.get('firstName') as string) || '',
+        lastName: (fd.get('lastName') as string) || '',
+        email: (fd.get('email') as string) || '',
+        phone: (fd.get('phone') as string) || '',
+        businessName: (fd.get('businessName') as string) || '',
+        sector: (fd.get('sector') as string) || '',
+        turnover: (fd.get('turnover') as string) || '',
+        employees: (fd.get('employees') as string) || '',
+        contactPreference: (fd.get('contactPreference') as string) || '',
+        coverageTypes: selectedCover.join(', ') || 'None selected',
+        message: (fd.get('message') as string) || '',
+        cfTurnstileToken: cfToken,
+      };
+
+      const res = await fetch('/api/submit-form', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       });
-    } catch {
-      // fail silently — redirect regardless
-    }
 
-    setIsSubmitting(false);
-    router.push('/thank-you/');
+      if (res.ok) {
+        router.push('/thank-you/');
+      } else {
+        const j = await res.json().catch(() => ({}));
+        setError(j.error || 'Something went wrong. Please try again.');
+        setIsSubmitting(false);
+      }
+    } catch {
+      setError('Unable to submit. Please check your connection and try again.');
+      setIsSubmitting(false);
+    }
   }
 
   return (
@@ -247,6 +262,11 @@ export default function QuoteForm() {
           </span>
         </label>
       </div>
+
+      <TurnstileWidget ref={turnstileRef} />
+      {error && (
+        <p className="text-sm text-red-600 text-center mb-3">{error}</p>
+      )}
 
       {/* Submit */}
       <div className="space-y-3">
