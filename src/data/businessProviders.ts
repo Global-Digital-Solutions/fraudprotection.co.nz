@@ -121,18 +121,4 @@ export const businessProviders: BusinessProvider[] = [
     coverTypes: ['Embezzlement', 'Employee Theft', 'Forgery', 'Dishonesty', 'Asset Misappropriation'],
     url: 'https://www.uniteinsurance.co.nz/',
   },
-  {
-    id: 'marble',
-    name: 'Marble Insurance',
-    type: 'broker',
-    tagline: 'Steadfast network broker — tailored business cover including fraud and crime',
-    description: 'Marble Insurance is a full-service brokerage and proud member of the Steadfast network — Australasia\'s largest broker group — giving clients access to over 160 insurance products and services. Their business insurance specialists assess your specific risks and tailor a package that can include commercial crime, fidelity, cyber liability, and management liability cover. Marble works for you, not the insurer, with an obligation to act in your best interests.',
-    keyFeature: 'Steadfast network access to 160+ products — independent advice in your interests',
-    highlight: 'Part of Australasia\'s largest broker network — Steadfast',
-    accessMethod: 'broker-or-direct',
-    products: ['Commercial Crime Insurance', 'Fidelity Insurance', 'Cyber Liability', 'Business Insurance', 'Management Liability'],
-    coverTypes: ['Commercial Crime', 'Employee Dishonesty', 'Cyber Liability', 'Business Interruption', 'Management Liability'],
-    url: 'https://www.marbleinsurance.co.nz/',
-    featured: true,
-  },
 ];
