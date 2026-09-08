@@ -4,6 +4,15 @@ import { useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import TurnstileWidget, { type TurnstileHandle } from './TurnstileWidget';
 
+const personalCoverageOptions = [
+  { id: 'identity-theft', label: 'Identity Theft', desc: 'Someone using your details' },
+  { id: 'scam-loss', label: 'Scam or Fraud Loss', desc: 'Money lost to a scam' },
+  { id: 'card-banking', label: 'Card or Banking Fraud', desc: 'Unauthorised transactions' },
+  { id: 'online-fraud', label: 'Online Fraud', desc: 'Marketplace, romance, investment' },
+  { id: 'what-covers-me', label: 'What Already Covers Me?', desc: 'Bank, contents, card protections' },
+  { id: 'unsure', label: 'Not Sure — Need Guidance', desc: 'Happy to be pointed the right way' },
+];
+
 const coverageOptions = [
   { id: 'commercial-crime', label: 'Commercial Crime', desc: 'Internal & external criminal acts' },
   { id: 'fidelity', label: 'Fidelity / Employee Fraud', desc: 'Embezzlement, dishonesty' },
@@ -13,7 +22,24 @@ const coverageOptions = [
   { id: 'unsure', label: 'Not Sure — Need Advice', desc: 'Happy to be guided' },
 ];
 
-export default function QuoteForm() {
+/**
+ * One form, two sides of the site.
+ *
+ * The site has a business side and a personal side, but there was only ever a
+ * business form: businessName and sector were required, so a personal visitor
+ * could not complete it. /personal/ links only to /contact/, which meant the
+ * personal half of the site had no route to a lead at all.
+ *
+ * Both variants post to /api/submit-form, which HMAC-signs and forwards to the
+ * Cloudflare Worker, and both are gated by Turnstile. The variant is sent
+ * through as enquiryType so the lead is identifiable at the far end.
+ */
+export default function QuoteForm({ variant = 'business' }: { variant?: 'business' | 'personal' } = {}) {
+  const isPersonal = variant === 'personal';
+  const coverOptions = isPersonal ? personalCoverageOptions : coverageOptions;
+  // Section 2 only renders for business, so the personal variant numbers 1, 2, 3.
+  const nCover = isPersonal ? '2' : '3';
+  const nMessage = isPersonal ? '3' : '4';
   const router = useRouter();
   const turnstileRef = useRef<TurnstileHandle>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -42,15 +68,20 @@ export default function QuoteForm() {
       }
 
       const payload: Record<string, string> = {
-        _subject: 'New Business Fraud Insurance Quote — FraudProtection.co.nz',
+        _subject: isPersonal
+          ? 'Personal fraud enquiry — FraudInsurance.co.nz'
+          : 'Business fraud insurance enquiry — FraudInsurance.co.nz',
+        enquiryType: isPersonal ? 'Personal' : 'Business',
         firstName: (fd.get('firstName') as string) || '',
         lastName: (fd.get('lastName') as string) || '',
         email: (fd.get('email') as string) || '',
         phone: (fd.get('phone') as string) || '',
-        businessName: (fd.get('businessName') as string) || '',
-        sector: (fd.get('sector') as string) || '',
-        turnover: (fd.get('turnover') as string) || '',
-        employees: (fd.get('employees') as string) || '',
+        ...(isPersonal ? {} : {
+          businessName: (fd.get('businessName') as string) || '',
+          sector: (fd.get('sector') as string) || '',
+          turnover: (fd.get('turnover') as string) || '',
+          employees: (fd.get('employees') as string) || '',
+        }),
         contactPreference: (fd.get('contactPreference') as string) || '',
         coverageTypes: selectedCover.join(', ') || 'None selected',
         message: (fd.get('message') as string) || '',
@@ -133,9 +164,10 @@ export default function QuoteForm() {
         </div>
       </div>
 
-      <div className="border-t-2 border-dashed border-slate-100 my-7" />
+      {!isPersonal && <div className="border-t-2 border-dashed border-slate-100 my-7" />}
 
-      {/* Section 2: Business Info */}
+      {/* Section 2: Business Info — business variant only */}
+      {!isPersonal && (
       <div className="mb-1">
         <div className="flex items-center gap-3 mb-5">
           <div className="w-7 h-7 bg-red-600 text-white rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0">2</div>
@@ -191,19 +223,20 @@ export default function QuoteForm() {
           </div>
         </div>
       </div>
+      )}
 
       <div className="border-t-2 border-dashed border-slate-100 my-7" />
 
       {/* Section 3: Cover Required */}
       <div className="mb-1">
         <div className="flex items-center gap-3 mb-5">
-          <div className="w-7 h-7 bg-red-600 text-white rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0">3</div>
+          <div className="w-7 h-7 bg-red-600 text-white rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0">{nCover}</div>
           <h3 className="font-bold text-slate-800 text-sm uppercase tracking-wide">Cover Required</h3>
           <div className="flex-1 h-px bg-slate-200" />
         </div>
         <p className="text-xs text-slate-500 mb-4">Select all that apply — or choose "Not Sure" and your adviser will guide you.</p>
         <div className="grid sm:grid-cols-2 gap-3">
-          {coverageOptions.map((opt) => {
+          {coverOptions.map((opt) => {
             const isSelected = selectedCover.includes(opt.id);
             return (
               <button
@@ -242,7 +275,7 @@ export default function QuoteForm() {
       {/* Section 4: Additional info */}
       <div className="mb-7">
         <div className="flex items-center gap-3 mb-5">
-          <div className="w-7 h-7 bg-slate-400 text-white rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0">4</div>
+          <div className="w-7 h-7 bg-slate-400 text-white rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0">{nMessage}</div>
           <h3 className="font-bold text-slate-800 text-sm uppercase tracking-wide">Anything Else?</h3>
           <div className="flex-1 h-px bg-slate-200" />
         </div>

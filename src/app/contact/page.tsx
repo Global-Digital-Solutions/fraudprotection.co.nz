@@ -55,7 +55,7 @@ export default function ContactPage() {
 
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-4">Send Us a Message</h2>
-              <QuoteForm />
+              <QuoteForm variant="personal" />
             </div>
           </div>
         </div>
