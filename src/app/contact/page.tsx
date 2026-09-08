@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import QuoteForm from '@/components/QuoteForm'
 
 export const metadata: Metadata = {
   title: 'Contact FraudInsurance.co.nz | NZ Fraud Insurance Enquiries',
@@ -54,25 +55,7 @@ export default function ContactPage() {
 
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-4">Send Us a Message</h2>
-              <form action="https://formsubmit.co/hello@cover4you.co.nz" method="POST" className="space-y-4">
-                <input type="hidden" name="_subject" value="Website enquiry — FraudInsurance.co.nz" />
-                <input type="hidden" name="_captcha" value="false" />
-                <div>
-                  <label className="block text-sm font-semibold text-slate-700 mb-1.5">Name</label>
-                  <input name="name" required type="text" className="w-full border border-slate-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-red-400" />
-                </div>
-                <div>
-                  <label className="block text-sm font-semibold text-slate-700 mb-1.5">Email</label>
-                  <input name="email" required type="email" className="w-full border border-slate-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-red-400" />
-                </div>
-                <div>
-                  <label className="block text-sm font-semibold text-slate-700 mb-1.5">Message</label>
-                  <textarea name="message" required rows={5} className="w-full border border-slate-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-red-400 resize-none" />
-                </div>
-                <button type="submit" className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3.5 rounded-xl transition-colors">
-                  Send Message →
-                </button>
-              </form>
+              <QuoteForm />
             </div>
           </div>
         </div>
